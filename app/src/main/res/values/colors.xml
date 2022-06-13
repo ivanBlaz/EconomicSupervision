@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1289FC</color>
+    <color name="colorApp">#1289FC</color>
+    <color name="colorAppNotSelected">#024383</color>
+    <color name="colorAppIntense">#001222</color>
+    <color name="colorAppLight">#86c3fd</color>
+    <color name="colorIncome">#66cd07</color>
+    <color name="colorExpense">#f9afae</color>
+    <color name="colorBalanced">#FFC862</color>
+    <color name="black">#000000</color>
+    <color name="blackTransparent">#80000000</color>
+    <color name="colorGainsboro">#DCDCDC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#ffff00</color>
+    <color name="opacity">#25FFFF00</color>
+    <color name="star">#FFFF8A</color>
+    <color name="colorHint">#c2c2c2</color>
+</resources>

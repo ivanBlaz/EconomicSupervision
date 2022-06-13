@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slidingUpMovements"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="bottom"
+    tools:context=".Activities.MovementsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnVoiceAssistantHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:rippleColor="@color/blackTransparent"
+            app:srcCompat="@drawable/help" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+                android:id="@+id/txtvBalanceMoney"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/minisystem"
+                android:padding="5dp"
+                android:text="20.233,54"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/txtvBalance"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/txtvBalance"
+                app:layout_constraintTop_toBottomOf="@+id/txtvBalance"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+                android:id="@+id/txtvBalance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:text="Balance September [EUR]"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/divider38"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imgvLosses"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtvBalanceMoney"
+                app:layout_constraintEnd_toEndOf="@+id/imgvProfits"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imgvProfits"
+                app:layout_constraintTop_toTopOf="@+id/txtvBalanceMoney"
+                app:layout_constraintVertical_bias="0.5"
+                app:srcCompat="@drawable/expenses_up" />
+
+            <ImageView
+                android:id="@+id/imgvProfits"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtvBalance"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/divider38"
+                app:layout_constraintTop_toTopOf="@+id/txtvBalance"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/income_down" />
+
+            <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+                android:id="@+id/txtvProfits"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/minisystem"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="20.233,54"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorIncome"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imgvProfits"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgvProfits"
+                app:layout_constraintTop_toTopOf="@+id/imgvProfits"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+                android:id="@+id/txtvLosses"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/minisystem"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="58.213,54"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorExpense"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imgvLosses"
+                app:layout_constraintEnd_toEndOf="@+id/txtvProfits"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgvProfits"
+                app:layout_constraintTop_toTopOf="@+id/imgvLosses"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <View
+                android:id="@+id/divider38"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clNoneMovement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <ImageView
+                android:id="@+id/imgvNoneMovement"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/expense"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/txtvNoneMovement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/No_movement_found"
+                android:textAlignment="center"
+                android:textColor="@color/colorApp"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgvNoneMovement"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMovements"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieFilter"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginEnd="8dp"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvFilter"
+            app:layout_constraintEnd_toStartOf="@+id/txtvFilter"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtvFilter"
+            app:layout_constraintVertical_bias="0.0"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="filtering.json"
+            app:lottie_loop="false"
+            app:lottie_speed="2.5" />
+
+        <TextView
+            android:id="@+id/txtvFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/Filter"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorApp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieVoiceAssistant"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="microphone.json"
+            app:lottie_loop="true" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

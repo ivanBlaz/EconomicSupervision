@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ekonomi Gainbegiratzea</string>
+    <string name="name">Izena</string>
+    <string name="sign_up">Sartu</string>
+    <string name="just_one_more_step">Pauso bat gehiago besterik ez</string>
+    <string name="sms_verification_code">Kontuaren kodea</string>
+    <string name="sms_verification_code_message">Hau da zure Economic Supervision kodea:</string>
+    <string name="sms_invitation">Your Economic Supervision code is:</string>
+    <string name="sms_request_code">Eskatutako kodea</string>
+    <string name="and">eta</string>
+    <string name="or">edo</string>
+    <string name="participants">partaide</string>
+    <string name="Not_found">Ez da aurkitu</string>
+    <string name="paid">Ordainduta</string>
+    <string name="not_paid">ordaindu gabe</string>
+    <string name="completed">osatuta</string>
+    <string name="not_completed">osatu gabe</string>
+    <string name="delete_debts">Zorrak ezabatu</string>
+    <string name="delete_payment_credits">Ezabatu ordainketa kredituak</string>
+    <string name="have_payments">ordainketa kredituak</string>
+    <string name="Have_Payments">Ordainketa Kredituak</string>
+    <string name="debts">zor</string>
+    <string name="new_payment_credit">Ordainketa kreditu berria</string>
+    <string name="NAME_new_payment_credit_of_VALUE">NAME ordainketa kreditu berria VALUE</string>
+    <string name="new_debt">Zor berria</string>
+    <string name="New_debt_to_NAME_of_VALUE">Zor berria NAME VALUE</string>
+    <string name="new_participant">Partaide berria</string>
+    <string name="Something_went_wrong">Zerbait gaizki atera zen</string>
+    <string name="to_pay">Ordaintzeko</string>
+    <string name="to_receive">jasotzeko</string>
+    <string name="incalculable">kalkulaezina></string>
+    <string name="new_group">Talde berria</string>
+    <string name="nobody">Inor ez</string>
+    <string name="It_has_not_been_possible_to_perform_this_action">Ezin izan da ekintza hau burutu</string>
+    <string name="accept">Onartu</string>
+    <string name="cancel">Bertan behera utzi</string>
+    <string name="The_data_entered_is_not_correct">Sartutako datuak ez dira zuzenak</string>
+    <string name="Go_to">Joan</string>
+    <string name="permanently">betirako</string>
+    <string name="with_a_single_payment_and_you_will_have">ordainketa bakarrarekin... eta izango duzu...</string>
+    <string name="three_accounts">3 kontu</string>
+    <string name="The_possibility_of_creating_2_more_accounts">Beste bi kontu sortzeko aukera</string>
+    <string name="Group_payment_creation">- Talde ordainketa sortzea</string>
+    <string name="Voice_motion_filtering">- Transakzioen eta mugimenduen iragazketa ahots bidez</string>
+    <string name="Data_recovery_from_your_old_device">- Datuen berreskuratzea kostu gehigarririk gabe</string>
+    <string name="Get_premium">Lortu premium</string>
+    <string name="forever">Betirako</string>
+    <string name="Donate">Eman</string>
+    <string name="Old_device_id">Gailuaren id zaharra</string>
+    <string name="ODID">ODID</string>
+    <string name="Phone">Tel. Znb.</string>
+    <string name="Phone_number">Telefono zenbakia</string>
+    <string name="Recover_data">Datuak berreskuratu</string>
+    <string name="The_phone_number_entered_must_be_the_same_as_the_SIM_card_that_contains_this_mobile_device">Sartutako telefono zenbakiak gailu mugikor hau duen SIM txartelaren berdina izan behar du</string>
+    <string name="I_agree_to_send_an_SMS_in_order_to_authenticate_myself_in_the_application">Onartzen dut SMS bat bidaltzea aplikazioan nire burua autentifikatzeko.</string>
+    <string name="I_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">Zerbitzuaren baldintzak eta aplikazioaren pribatutasun politika onartzen ditut.</string>
+    <string name="What_is_your_name">Zein da zure izena?</string>
+    <string name="What_currency_do_you_use">Zein moneta erabiltzen duzu?</string>
+    <string name="How_much_money_do_you_handle">¿Zenbat diru kudeatzen duzu?</string>
+    <string name="What_is_your_phone_number">Zein da zure telefono zenbakia?</string>
+    <string name="Download_Terms_of_Service">Deskargatu Zerbitzu Baldintzak.</string>
+    <string name="Download_Privacy_Policy">Deskargatu pribatutasun politika.</string>
+    <string name="Waiting_for_SMS_verification_code">SMS egiaztapen kodearen zain...</string>
+    <string name="The_name_must_be_between_1_and_10_letters">Izenak 1 eta 10 hizki artekoa izan behar du</string>
+    <string name="Searching_for_device">Gailua bilatzen...</string>
+    <string name="Device_found">Gailua aurkitu da...</string>
+    <string name="You_must_accept_the_condition">Baldintza onartu behar duzu</string>
+    <string name="Wrong_device_id_or_phone_number">Berreskuratze-kodea edo telefono zenbakia okerra da</string>
+    <string name="If_you_go_back_you_can_continue_with_the_registration">Atzera eginez gero erregistroarekin jarraitu dezakezu...</string>
+    <string name="You_must_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">Zerbitzuaren Baldintzak eta aplikazioaren Pribatutasun Politika onartu behar dituzu</string>
+    <string name="The_phone_number_must_be_between_8_and_10_digits_long">Telefono zenbakiak 8 eta 10 digitu artekoa izan behar du</string>
+    <string name="does_not_exist_as_currency">ez da moneta gisa existitzen</string>
+    <string name="Go_premium_and_you_can_enjoy_this_option">Joan premium eta aukera honetaz gozatu ahal izango duzu</string>
+    <string name="You_have_reached_the_limit_of_available_account">Eskuragarri dauden kontuen mugara iritsi zara</string>
+    <string name="Yes">Bai</string>
+    <string name="No">Ez</string>
+    <string name="Password">Pasahitza</string>
+    <string name="Enabled">Gaituta</string>
+    <string name="Disabled">Desgaituta</string>
+    <string name="Thanks_to_the_copied_code_you_will_be_able_to_recover_the_data_from_another_device">Kopiatutako kodeari esker, etorkizunean datuak berreskuratu ahal izango dituzu</string>
+    <string name="See_the_advantages_you_have_with_premium">Ikusi premiumarekin dituzun abantailak</string>
+    <string name="Build_new_account">Eraiki kontu berria</string>
+    <string name="Build_account">Eraiki kontua</string>
+    <string name="Destroy_account">Suntsitu kontua</string>
+    <string name="More_accounts">Kontu gehiago</string>
+    <string name="Switch_account">Aldatu kontua</string>
+    <string name="Security_system">Segurtasun sistema</string>
+    <string name="Donation">Dohaintza</string>
+    <string name="Thank_you_very_much_for_your_donation">Mila esker zure laguntzagatik</string>
+    <string name="How_much_does_he_owe_you">Zenbat zor dizu NAME?</string>
+    <string name="How_much_do_you_owe">Zenbat zor diozu NAME?</string>
+    <string name="Owes_you">NAME X,XX zor dizu?</string>
+    <string name="You_owe_to">X,XX zor diozu NAME?</string>
+    <string name="How_much_do_they_owe_you">Zenbat zor dizute?</string>
+    <string name="between">artean</string>
+    <string name="Example">Adibidea</string>
+    <string name="friends_and_you_are_responsible_for_paying">Y lagun eta zu arduratzen zara X,XX ordaintzeaz?</string>
+    <string name="and_you_are_responsible_for_paying">Y eta zu arduratzen zara X,XX ordaintzeaz?</string>
+    <string name="The_group_must_be_made_up_of_at_least_2_friends_and_you">Taldea gutxienez 2 (gehienez 32) lagun eta zu osaturik egon behar du</string>
+    <string name="What_do_you_want_to_call_the_group">Nola deitu nahi diozu taldeari?</string>
+    <string name="Check_your_internet_connection">Egiaztatu Interneteko konexioa</string>
+    <string name="Who___How_many_owe_you">[Nor / Zenbat pertsona zor dizute]</string>
+    <string name="Value_to_pay">[Ordaindu beharreko balioa]</string>
+    <string name="You_have_reached_the_maximum_OBJECT_limit">OBJECT muga maximora iritsi zara</string>
+    <string name="Accounts">Kontuak</string>
+    <string name="Concepts">Kontzeptuak</string>
+    <string name="Categories">Kategoriak</string>
+    <string name="Should">Behar</string>
+    <string name="Have">Eduki</string>
+    <string name="Payments">Ordainketak</string>
+    <string name="Debts">Zorrak</string>
+    <string name="Group_Payments">Talde Ordainketak</string>
+    <string name="Transactions">Transakzioak</string>
+    <string name="Conceptual__Categorical_Movements">[Kontzeptu / Categori] Mugimenduak</string>
+    <string name="Movements">Mugimenduak</string>
+    <string name="WhatsApp_is_not_installed_on_this_device">WhatsApp ez dago gailu honetan instalatuta</string>
+    <string name="The_minimum_value_per_person_is_X">Pertsona bakoitzeko gutxieneko balioa X da</string>
+    <string name="The_maximum_value_per_person_is_X">Pertsona bakoitzeko gehieneko balioa X da</string>
+    <string name="LANGUAGE_is_not_supported_by_voice_assistant">Ahots laguntzaileak ez du LANGUAGE onartzen</string>
+    <string name="A_moment_ago">Duela une bat</string>
+    <string name="A_minute_ago">Duela minutu bat</string>
+    <string name="X_minutes_ago">Duela X minutu</string>
+    <string name="An_hour_ago">Duela hordu bat</string>
+    <string name="X_hours_ago">Duela X hordu</string>
+    <string name="Today">Gaur</string>
+    <string name="Yesterday">Atzo</string>
+    <string name="X_days_ago">Duela X egun</string>
+    <string name="Friends">Lagunak</string>
+    <string name="Groups">Taldeak</string>
+    <string name="Save_changes">Aldaketak gorde</string>
+    <string name="Starting_money_amount_and_currency">Hasierako diru kopurua eta moneta</string>
+    <string name="Account_name">Kontuaren izena</string>
+    <string name="You_have_reached_the_maximum_data_size">Datuen gehieneko tamaina lortu duzu</string>
+    <string name="Expenses">Gastuak</string>
+    <string name="Income">Ingresuak</string>
+    <string name="Filter">Iragazki</string>
+    <string name="Filtering">Iragazkitzen...</string>
+    <string name="Add_payment">Gehitu ordainketa</string>
+    <string name="Grant_permission">Baimena eman</string>
+    <string name="For_some_reason_the_data_has_been_deleted">Arrazoiren batengatik datuak ezabatu egin dira</string>
+    <string name="No_transaction_found">Ez da transakziorik aurkitu</string>
+    <string name="No_movement_found">Ez da migumendurik aurkitu</string>
+    <string name="The_application_must_be_updated">Aplikazioa eguneratu behar da</string>
+    <string name="Thank_you_very_much_for_trusting_Premium">Mila esker Premium fidagarriarengatik</string>
+    <string name="Make_sure_you_have_your_data_protected">Ziurtatu zure datuak babestuta dituzula</string>
+    <string name="Data_recovery">Datuak berreskuratzea</string>
+    <string name="Click_to_copy_the_data_recovery_code_for_this_device">Egin klik datuen berreskuratze-kodea kopiatzeko</string>
+    <string name="Device_id">Berreskuratze-kodea</string>
+    <string name="Make_sure_you_have_a_good_internet_connection_before_making_the_payment">Ordaindu aurretik ziurtatu Interneteko konexio ona duzula</string>
+    <string name="Download_Flaticon_Attributions">Deskargatu Flaticon Atribuzioak</string>
+    <string name="Download_LottieFiles_Attributions">Deskargatu LottieFiles Atribuzioak</string>
+    <string name="See_all_image_animation_and_software_licenses">Ikusi irudi, animazio eta software lizentzia guztiak</string>
+    <string name="Licenses">Lizentziak</string>
+    <string name="Images">Irudiak</string>
+    <string name="Animations">Animazioak</string>
+    <string name="Software">Software</string>
+    <string name="You_must_enter_a_valid_amount">Baliozko zenbatekoa sartu behar duzu</string>
+    <string name="Voice_assistant_title">Hauek dira erantzun ditzakedan esaldiak... Eta gogoratu nahi dituzun emaitzak aurkitzeko konbinatu ditzakezula...</string>
+    <string name="SMS_permissions_are_required_to_register">SMS baimenak behar dira erregistratzeko</string>
+    <string name="Microphone_and_contact_read_permissions_are_required_to_perform_and_filter_transactions">Mikrofonoa eta kontaktuak irakurtzeko baimenak behar dira transakzioak burutzeko eta iragazteko</string>
+    <string name="Location_permits_are_required_to_perform_movements">Mugimenduak gauzatzeko kokapenaren baimena behar duzu</string>
+    <string name="Microphone_permissions_are_required_to_filter_movements">Mikrofonoen baimenak behar dira mugimenduak iragazteko</string>
+    <string name="By_continuing_you_are_accepting">Jarraituz gero onartzen dituzu</string>
+    <string name="the_license_terms">lizentziaren baldintzak...</string>
+    <string name="privacy_policy">pribatutasun politika</string>
+    <string name="It_has_not_been_possible_to_download_the_privacy_policy__check_your_Internet_connection">Ezin izan da pribatutasun politika deskargatu, egiaztatu zure Interneteko konexioa</string>
+    <string name="Resend_verification_code">Bidali berriro egiaztapen-kodea</string>
+    <string name="Wrong_verification_code">Egiaztapen-kode okerra</string>
+    <string name="Enter_the_verification_code_we_have_sent_you">Sartu bidali dizugun egiaztapen-kodea</string>
+    <string name="Verification_error">Egiaztapen-errorea</string>
+    <string name="Welcome">Ongi etorri</string>
+    <string name="Contact_read_permissions_are_required_to_perform_this_action">Kontaktuak irakurtzeko baimenak behar dira ekintza hau egiteko</string>
+    <string name="seconds">segundu</string>
+    <string name="This_phone_number_is_already_registered">Telefono-zenbaki hau erregistratuta dago dagoeneko</string>
+    <string name="This_phone_number_is_not_registered">Telefono-zenbaki hau ez dago erregistratuta</string>
+    <string name="Processing_data">Datuak prozesatzen...</string>
+    <string name="Log_out">Saioa itxi</string>
+    <string name="To_log_in_enter_the_phone_number_with_which_you_registered">Saioa hasteko, sartu erregistratu zenuen telefono-zenbakia</string>
+    <string-array name="transactions_voice_assistant_statements">
+        <item>Bakarka / Taldeak</item>
+        <item>Positiboa / Ezezkoa</item>
+        <item>[balioa] baino handiagoa / txikiagoa</item>
+        <item>[balioa] eta [balioa] artean</item>
+        <item>Ondoren / aurretik [data / aldia] </item>
+        <item>[x data / aldia] eta [x data / aldia] artean</item>
+        <item>X data / aldia</item>
+        <item>Gehiago / gutxiago [x denbora]</item>
+        <item>Orain dela [x denbora]</item>
+        <item>Orain dela zehazki [x denbora]</item>
+        <item>[lagunen izenak]</item>
+        <item>Taldea</item>
+        <item>Taldekatu</item>
+        <item>Taldeak ikusi</item>
+    </string-array>
+    <!-- EXAMPLES TRANSACTIONS -->
+    <!-- Individual / Group -->
+    <string-array name="transactions_voice_assistant_examples_ind_grp">
+        <item>Banakako transakzioak</item>
+        <item>Taldeko transakzioak</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="transactions_voice_assistant_examples_pos_neg">
+        <item>Transakzio positiboak</item>
+        <item>Transakzio negatiboak</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="transactions_voice_assistant_examples_higher_lower">
+        <item>X baino handiagoak diren transakzioak</item>
+        <item>X baino txikiagoak diren transakzioak</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="transactions_voice_assistant_examples_between_value">
+        <item>X eta Y arteko transakzioak</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="transactions_voice_assistant_examples_after_before">
+        <item>Azken hilabetearen ondorengo mugimenduak</item>
+        <item>Irailaren 14a baino lehenagoko mugimenduak</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="transactions_voice_assistant_examples_between_dates">
+        <item>Transakzioak abuztuaren 1etik aurreko urtearte</item>
+        <item>Transakzioak duela astebete eta atzo artean</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="transactions_voice_assistant_examples_date_period">
+        <item>Azaroaren 24ko transakzioak</item>
+        <item>Urtarrileko lehen asteko transakzioak</item>
+        <item>Joan den hileko bigarren seihilekoko transakzioak</item>
+        <item>Udarako transakzioak</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="transactions_voice_assistant_examples_more_less">
+        <item>Duela bi negu baino gehiago transakzioak</item>
+        <item>Duela bi aste baino gutxiago transakzioak</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_ago">
+        <item>Duela hilabete bateko transakzioak</item>
+        <item>Duela lau eguneko transakzioak</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_exactly_ago">
+        <item>Duela zehazki bost eguneko transakzioak</item>
+        <item>Duela zehazki urtebeteko transakzioak</item>
+    </string-array>
+    <!-- From [friends names] -->
+    <string-array name="transactions_voice_assistant_examples_in">
+        <item>Mikelen eta Anaren transakzioak</item>
+    </string-array>
+    <!---->
+    <string-array name="movements_voice_assistant_statements">
+        <item>Kategorikoa / Kontzeptuala</item>
+        <item>Kategoriatik [kategoria izena]</item>
+        <item>Kontzeptuarena [kontzeptuaren izena]</item>
+        <item>Positiboa / Ezezkoa</item>
+        <item>[balioa] baino handiagoa / txikiagoa</item>
+        <item>[balioa] eta [balioa] artean</item>
+        <item>Ondoren / aurretik [data / aldia]</item>
+        <item>[x data / aldia] eta [x data / aldia] artean</item>
+        <item>X data / aldia </item>
+        <item>Gehiago / gutxiago [x denbora]</item>
+        <item>Orain dela [x denbora]</item>
+        <item>Orain dela zehazki [x denbora]</item>
+        <item>Hemen [kale izenak, herria, probintzia, autonomia edo herrialdea]</item>
+    </string-array>
+    <!-- EXAMPLES MOVEMENTS -->
+    <!-- Categorical / Conceptual -->
+    <string-array name="movements_voice_assistant_examples_concat">
+        <item>Mugimendu kategorikoak</item>
+        <item>Mugimendu kontzeptualak</item>
+    </string-array>
+    <!-- From category [category name] -->
+    <string-array name="movements_voice_assistant_examples_from_category">
+        <item>X kategoriko mugimenduak</item>
+        <item>X subkategoriko mugimenduak</item>
+    </string-array>
+    <!-- Of the concept [name of the concept] -->
+    <string-array name="movements_voice_assistant_examples_from_concept">
+        <item>Bizum kontzeptu mugimenduak</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="movements_voice_assistant_examples_pos_neg">
+        <item>Mugimendu positiboak</item>
+        <item>Mugimendu negatiboak</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="movements_voice_assistant_examples_higher_lower">
+        <item>X baino handiagoak diren mugimenduak</item>
+        <item>X baino txikiagoak diren mugimenduak</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="movements_voice_assistant_examples_between_value">
+        <item>X eta Y arteko mugimenduak</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="movements_voice_assistant_examples_after_before">
+        <item>Azken hilabetearen ondorengo mugimenduak</item>
+        <item>Irailaren 14a baino lehenagoko mugimenduak</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="movements_voice_assistant_examples_between_dates">
+        <item>Mugimenduak abuztuaren 1etik aurreko urtearte</item>
+        <item>Mugimenduak duela astebete eta atzo artean</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="movements_voice_assistant_examples_date_period">
+        <item>Azaroaren 24ko mugimenduak</item>
+        <item>Urtarrileko lehen asteko mugimenduak</item>
+        <item>Joan den hileko bigarren seihilekoko mugimenduak</item>
+        <item>Udarako mugimenduak</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="movements_voice_assistant_examples_more_less">
+        <item>Duela bi negu baino gehiago mugimenduak</item>
+        <item>Duela bi aste baino gutxiago mugimenduak</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_ago">
+        <item>Duela hilabete bateko mugimenduak</item>
+        <item>Duela lau eguneko mugimenduak</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_exactly_ago">
+        <item>Duela zehazki bost eguneko mugimenduak</item>
+        <item>Duela zehazki urtebeteko mugimenduak</item>
+    </string-array>
+    <!-- In [street names, locality, province, autonomy or country] -->
+    <string-array name="movements_voice_assistant_examples_in">
+        <item>Gipuzkoan egindako mugimenduak</item>
+        <item>Donostian egindako mugimenduak</item>
+    </string-array>
+    <!---->
+    <string-array name="names">
+        <item>Oliver</item>
+        <item>Jack</item>
+        <item>Harry</item>
+        <item>Jacob</item>
+        <item>Charlie</item>
+        <item>Amelia</item>
+        <item>Olivia</item>
+        <item>Isla</item>
+        <item>Emily</item>
+        <item>Poppy</item>
+        <item>Antonio</item>
+        <item>Manuel</item>
+        <item>Jose</item>
+        <item>Francisco</item>
+        <item>David</item>
+        <item>Maria</item>
+        <item>Carmen</item>
+        <item>Isabel</item>
+        <item>Laura</item>
+        <item>Ana</item>
+        <item>Cristina</item>
+        <item>Markel</item>
+        <item>Jon</item>
+        <item>Julen</item>
+        <item>Aimar</item>
+        <item>Ander</item>
+        <item>Ibai</item>
+        <item>Ane</item>
+        <item>Laia</item>
+        <item>June</item>
+        <item>Irati</item>
+        <item>Nahia</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>Zero</item>
+        <item>Bat</item>
+        <item>Bi</item>
+        <item>Hiru</item>
+        <item>Lau</item>
+        <item>Bost</item>
+        <item>Sei</item>
+        <item>Zazpi</item>
+        <item>Zortzi</item>
+        <item>Bederatzi</item>
+    </string-array>
+    <string-array name="days">
+        <item>Igandea</item>
+        <item>Astelehena</item>
+        <item>Asteartea</item>
+        <item>Asteazkena</item>
+        <item>Osteguna</item>
+        <item>Ostirala</item>
+        <item>Larunbata</item>
+    </string-array>
+    <string-array name="months">
+        <item>Urtarrila</item>
+        <item>Otsaila</item>
+        <item>Martxoa</item>
+        <item>Aprilia</item>
+        <item>Maiatza</item>
+        <item>Ekaina</item>
+        <item>Uztaila</item>
+        <item>Abuztua</item>
+        <item>Iraila</item>
+        <item>Urria</item>
+        <item>Azaroa</item>
+        <item>Abendua</item>
+    </string-array>
+    <string-array name="seasons">
+        <item>Udaberria</item>
+        <item>Uda</item>
+        <item>Udazkena</item>
+        <item>Negua</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Desklasifikatua</item>
+        <item>Janaria|Janaria Orokorrean,Supermerkatua,Jatetxea,Egunero</item>
+        <item>Aisialdia|Aisialdia Orokorrean,Zinema eta Antzerkia,Diskoteka,Taberna,Oporraldiak,Kontzertua,Jokoak,Bidaiak</item>
+        <item>Autoa|Autoa Orokorrean,Erregaia,Konponketak,Amortizazioa,Asegurua,Autoa Garbitzea,Osagarriak</item>
+        <item>Etxebizitza|Etxebizitza Orokorrean,Elektrizitatea,Ura,Gasa,Berokuntza,Alokairua,Kreditua,Aseguruak,Internet,Telebista,Telefonoa,Altzariak,Konponketak,Garbiketa Produktuak</item>
+        <item>Jantziak|Jantziak Orokorrean,Prakak,Oinetakoak,Jertseak,Alkandorak,Jakak,Kamisetak,Bitxiak,Barruko Arropa</item>
+        <item>Electronics|Electronics General,Computer,Tablet,Telephone,TV,Printer,Camera,Games,Accessories</item>
+        <item>Elektronika|Elektronika Orokorean,Ordenagailua,Tableta,Telefonoa,Telebista,Inprimagailua,Kamera,Jokoak,Osagarriak</item>
+        <item>Children|Children General,Toys,Clothing,School,Pocket Money</item>
+        <item>Lana|Lana Orokorrean,Soldata,Hobaria,Bestelakoak</item>
+    </string-array>
+    <integer-array name="imgCategories">
+        <item>@drawable/uncategorized</item>
+        <item>@drawable/food</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/car</item>
+        <item>@drawable/home</item>
+        <item>@drawable/clothing</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/health</item>
+        <item>@drawable/children</item>
+        <item>@drawable/work</item>
+    </integer-array>
+    <string name="profile">Profila</string>
+    <string name="chat">Berriketa</string>
+    <string name="person">Pertsona</string>
+    <string name="among_all">Taldean</string>
+    <string name="individually">Banaka</string>
+    <string name="products">Produktuak</string>
+    <string name="product">Produktua</string>
+    <string name="defaulter">Lehenetsia</string>
+    <string name="unknown">Ezezaguna</string>
+    <string name="me">Ni</string>
+    <string name="ticket">Tiket</string>
+    <string name="total">Guztira</string>
+    <string name="quantity">Zenbatekoa</string>
+    <string name="units">Unitateak</string>
+    <string name="remove_members">Kideak kendu</string>
+    <string name="remove_products_from_members">Produktuak kendu kideei</string>
+    <string name="pay_each_his_part">Ordaindu bakoitza bere zatia</string>
+    <string name="The_transfer_of_data_from_OLD_MODEL_to_NEW_MODEL_carries_a_cost">OLD_MODEL-etik datuak NEW_MODEL-era transferitzeak kostua du</string>
+    <string name="transferring_the_data_from_OLD_MODEL_to_NEW_MODEL">Datuak OLD_MODEL-etik NEW_MODEL-era transferitzen</string>
+    <string name="this_is_the_Economic_Supervision_verification_code">Hau da Gainbegiratze Ekonomikoa egiaztatzeko kodea</string>
+    <string name="Portability_of_data_from_one_device_to_another_comes_at_a_cost">Datuen berreskurapena kostua du</string>
+    <string name="I_agree_to_port_the_data_to_the_current_device">Aurretik nituen datuak berreskuratzea onartzen dut</string>
+    <string name="I_agree_to_receive_an_SMS_in_order_to_authenticate_myself_in_the_application">Onartzen dut SMS bat jasotzea aplikazioan autentifikatzeko</string>
+    <string name="You_must_enter_the_device_identifier_and_phone_number_you_used_when_you_signed_up_for_the_app">Berreskuratze-kodea eta aplikazioan erregistratu zinenean erabili zenuen telefono-zenbakia sartu behar dituzu</string>
+    <string name="It_is_recommended_to_register_with_the_same_phone_number_of_the_SIM_card_that_contains_your_mobile_device">Gomendagarria da zure gailu mugikorra duen SIM txartelaren telefono-zenbaki berarekin erregistratzea</string>
+    <string name="Porting_the_data_to_your_current_device">Datuak berreskuratzen</string>
+</resources>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Supervisión Económica</string>
+    <string name="name">Nombre</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="just_one_more_step">Solo un paso mas</string>
+    <string name="sms_verification_code">Codigo de cuenta</string>
+    <string name="sms_verification_code_message">Tu código de Economic Supervision es:</string>
+    <string name="sms_invitation">Your Economic Supervision code is:</string>
+    <string name="sms_request_code">Codigo solicitado</string>
+    <string name="and">y</string>
+    <string name="or">o</string>
+    <string name="participants">participantes</string>
+    <string name="Not_found">No encontrado</string>
+    <string name="paid">Pagado</string>
+    <string name="not_paid">no pagado</string>
+    <string name="completed">completado</string>
+    <string name="not_completed">no completado</string>
+    <string name="delete_debts">Borrar deudas</string>
+    <string name="delete_payment_credits">Borrar haber de pagos</string>
+    <string name="have_payments">haber de pagos</string>
+    <string name="Have_Payments">Haber de Pagos</string>
+    <string name="debts">deudas</string>
+    <string name="new_payment_credit">Nuevo haber de pago</string>
+    <string name="NAME_new_payment_credit_of_VALUE">Nuevo haber de pago de NAME de VALUE</string>
+    <string name="new_debt">Nueva deuda</string>
+    <string name="New_debt_to_NAME_of_VALUE">Nueva deuda a NAME de VALUE</string>
+    <string name="new_participant">Nuevo participante</string>
+    <string name="Something_went_wrong">Algo salio mal</string>
+    <string name="to_pay">A pagar</string>
+    <string name="to_receive">a recibir</string>
+    <string name="incalculable">incalculable</string>
+    <string name="new_group">Nuevo grupo</string>
+    <string name="nobody">Nadie</string>
+    <string name="It_has_not_been_possible_to_perform_this_action">No ha sido posible realizar esta acción</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="The_data_entered_is_not_correct">Los datos introducidos no son correctos</string>
+    <string name="Go_to">Pasate a</string>
+    <string name="permanently">permanentemente</string>
+    <string name="with_a_single_payment_and_you_will_have">con un solo pago... y tendras...</string>
+    <string name="three_accounts">3 cuentas</string>
+    <string name="The_possibility_of_creating_2_more_accounts">La posibilidad de crear dos cuentas más</string>
+    <string name="Group_payment_creation">- Creación de pagos grupales</string>
+    <string name="Voice_motion_filtering">- Filtrado de transacciones y movimientos por voz</string>
+    <string name="Data_recovery_from_your_old_device">- Recuperación de los datos sin coste adicional</string>
+    <string name="Get_premium">Obtener premium</string>
+    <string name="forever">para siempre</string>
+    <string name="Donate">Donar</string>
+    <string name="Old_device_id">Id del viejo dispositivo</string>
+    <string name="ODID">ODID</string>
+    <string name="Phone">Tel. No.</string>
+    <string name="Phone_number">Número de teléfono</string>
+    <string name="Recover_data">Recuperar los datos</string>
+    <string name="The_phone_number_entered_must_be_the_same_as_the_SIM_card_that_contains_this_mobile_device">El numero de telefono introducido debe ser el mismo de la tarjeta SIM que contiene este dispositivo móvil</string>
+    <string name="I_agree_to_send_an_SMS_in_order_to_authenticate_myself_in_the_application">Acepto enviar un SMS con el fin de autentificarme en la aplicacion.</string>
+    <string name="I_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">Acepto las Condiciones del Servicio y la Política de Privacidad de la aplicación.</string>
+    <string name="What_is_your_name">¿Como te llamas?</string>
+    <string name="What_currency_do_you_use">¿Que moneda usas?</string>
+    <string name="How_much_money_do_you_handle">¿Cuanto dinero manejas?</string>
+    <string name="What_is_your_phone_number">¿Cual es tu número de teléfono?</string>
+    <string name="Download_Terms_of_Service">Descargar Condiciones del Servicio.</string>
+    <string name="Download_Privacy_Policy">Descargar Política de Privacidad.</string>
+    <string name="Waiting_for_SMS_verification_code">Esperando al codigo de verificacion de SMS...</string>
+    <string name="The_name_must_be_between_1_and_10_letters">El nombre debe tener entre 1 y 10 letras</string>
+    <string name="Searching_for_device">Buscando dispositivo...</string>
+    <string name="Device_found">Dispositivo encontrado...</string>
+    <string name="You_must_accept_the_condition">Debes aceptar la condición</string>
+    <string name="Wrong_device_id_or_phone_number">Id de dispositivo o número de teléfono erróneos</string>
+    <string name="If_you_go_back_you_can_continue_with_the_registration">Si retrocedes podrás continuar con el registro...</string>
+    <string name="You_must_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">Debes aceptar las Condiciones del Servicio y la Política de Privacidad de la aplicación</string>
+    <string name="The_phone_number_must_be_between_8_and_10_digits_long">El número de teléfono debe tener entre 8 y 10 digitos</string>
+    <string name="does_not_exist_as_currency">no existe como moneda</string>
+    <string name="Go_premium_and_you_can_enjoy_this_option">Pasate a premium y podras disfrutar de esta opción</string>
+    <string name="You_have_reached_the_limit_of_available_account">Has alcanzado el límite de cuentas disponible</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
+    <string name="Password">Contraseña</string>
+    <string name="Enabled">Activada</string>
+    <string name="Disabled">Desactivada</string>
+    <string name="Thanks_to_the_copied_code_you_will_be_able_to_recover_the_data_from_another_device">Gracias al código copiado podrás recuperar los datos en un futuro</string>
+    <string name="See_the_advantages_you_have_with_premium">Mira las ventajas que tienes con premium</string>
+    <string name="Build_new_account">Construir nueva cuenta</string>
+    <string name="Build_account">Construir cuenta</string>
+    <string name="Destroy_account">Destruir cuenta</string>
+    <string name="More_accounts">Más cuentas</string>
+    <string name="Switch_account">Cambiar de cuenta</string>
+    <string name="Security_system">Sistema de seguridad</string>
+    <string name="Donation">Donación</string>
+    <string name="Thank_you_very_much_for_your_donation">Muchas gracias por tu donación</string>
+    <string name="How_much_does_he_owe_you">¿Cuantó te debe NAME?</string>
+    <string name="How_much_do_you_owe">¿Cuantó debes a NAME?</string>
+    <string name="Owes_you">¿NAME te debe X,XX?</string>
+    <string name="You_owe_to">¿Debes X,XX a NAME?</string>
+    <string name="How_much_do_they_owe_you">¿Cuánto te deben?</string>
+    <string name="between">entre</string>
+    <string name="Example">Ejemplo</string>
+    <string name="friends_and_you_are_responsible_for_paying">¿Y amigos y tu sois responsables de pagar X,XX?</string>
+    <string name="and_you_are_responsible_for_paying">¿Y y tu sois responsables de pagar X,XX?</string>
+    <string name="The_group_must_be_made_up_of_at_least_2_friends_and_you">El grupo debe estar compuesto como mínimo de 2 (máximo 32) amigos y tu</string>
+    <string name="What_do_you_want_to_call_the_group">¿Como quieres llamar al grupo?</string>
+    <string name="Check_your_internet_connection">Comprueba tu conexión a internet</string>
+    <string name="Who___How_many_owe_you">[Quienes / Cuantos te deben]</string>
+    <string name="Value_to_pay">[Valor a pagar]</string>
+    <string name="You_have_reached_the_maximum_OBJECT_limit">Has alcanzado el límite máximo de OBJECT</string>
+    <string name="Accounts">Cuentas</string>
+    <string name="Concepts">Conceptos</string>
+    <string name="Categories">Categorias</string>
+    <string name="Should">Deber</string>
+    <string name="Have">Haber</string>
+    <string name="Payments">Pagos</string>
+    <string name="Debts">Deudas</string>
+    <string name="Group_Payments">Pagos Grupales</string>
+    <string name="Transactions">Transacciones</string>
+    <string name="Conceptual__Categorical_Movements">[Conceptual / Categorial] Movimientos</string>
+    <string name="Movements">Movimientos</string>
+    <string name="WhatsApp_is_not_installed_on_this_device">WhatsApp no está instalado en este dispositivo</string>
+    <string name="The_minimum_value_per_person_is_X">El valor mínimo por persona es de X</string>
+    <string name="The_maximum_value_per_person_is_X">El valor máximo por persona es de X</string>
+    <string name="LANGUAGE_is_not_supported_by_voice_assistant">El LANGUAGE no es compatible con el asistente de voz</string>
+    <string name="A_moment_ago">Hace un momento</string>
+    <string name="A_minute_ago">Hace un minuto</string>
+    <string name="X_minutes_ago">Hace X minutos</string>
+    <string name="An_hour_ago">Hace una hora</string>
+    <string name="X_hours_ago">Hace X horas</string>
+    <string name="Today">Hoy</string>
+    <string name="Yesterday">Ayer</string>
+    <string name="X_days_ago">Hace X días</string>
+    <string name="Friends">Amigos</string>
+    <string name="Groups">Grupos</string>
+    <string name="Save_changes">Guardar cambios</string>
+    <string name="Starting_money_amount_and_currency">Cantidad de dinero inicial y moneda</string>
+    <string name="Account_name">Nombre de cuenta</string>
+    <string name="You_have_reached_the_maximum_data_size">Has alcanzado el tamaño máximo de los datos</string>
+    <string name="Expenses">Gastos</string>
+    <string name="Income">Ingresos</string>
+    <string name="Filter">Filtrar</string>
+    <string name="Filtering">Filtrando...</string>
+    <string name="Add_payment">Añadir pago</string>
+    <string name="Grant_permission">Conceder permiso</string>
+    <string name="For_some_reason_the_data_has_been_deleted">Por alguna razón los datos han sido eliminados</string>
+    <string name="No_transaction_found">No se ha encontrado ninguna transacción</string>
+    <string name="No_movement_found">No se ha encontrado ningún movimiento</string>
+    <string name="The_application_must_be_updated">La aplicación debe ser actualizada</string>
+    <string name="Thank_you_very_much_for_trusting_Premium">Muchas gracias por confiar en Premium</string>
+    <string name="Make_sure_you_have_your_data_protected">Asegurate de tener tus datos protegidos</string>
+    <string name="Data_recovery">Recuperación de datos</string>
+    <string name="Click_to_copy_the_data_recovery_code_for_this_device">Haz click para copiar el código de recuperación de datos</string>
+    <string name="Device_id">Código de recuperación</string>
+    <string name="Make_sure_you_have_a_good_internet_connection_before_making_the_payment">Asegurate de tener una buena conexión a Internet antes de realizar el pago</string>
+    <string name="Download_Flaticon_Attributions">Descargar Atribuciones de Flaticon</string>
+    <string name="Download_LottieFiles_Attributions">Descargar Atribuciones de LottieFiles</string>
+    <string name="See_all_image_animation_and_software_licenses">Mira todas las licencias de imágenes, animaciones y software</string>
+    <string name="Licenses">Licencias</string>
+    <string name="Images">Imágenes</string>
+    <string name="Animations">Animaciones</string>
+    <string name="Software">Software</string>
+    <string name="You_must_enter_a_valid_amount">Debes introducir un importe válido</string>
+    <string name="Voice_assistant_title">Estas son  todas las sentencias a las que te puedo responder... Y recuerda que puedes combinarlas para encontrar los resultados que desees...</string>
+    <string name="SMS_permissions_are_required_to_register">Se necesitan permisos de SMS para poder registrarse</string>
+    <string name="Microphone_and_contact_read_permissions_are_required_to_perform_and_filter_transactions">Se necesitan permisos de lectura de contactos y micrófono para realizar y filtrar transacciones</string>
+    <string name="Location_permits_are_required_to_perform_movements">Se necesitan permisos de ubicación para realizar movimientos</string>
+    <string name="Microphone_permissions_are_required_to_filter_movements">Se necesitan permisos de micrófono para filtrar movimientos</string>
+    <string name="By_continuing_you_are_accepting">Al continuar estas aceptando</string>
+    <string name="the_license_terms">los términos de licencia...</string>
+    <string name="privacy_policy">política de privacidad</string>
+    <string name="It_has_not_been_possible_to_download_the_privacy_policy__check_your_Internet_connection">No ha sido posible descargar la política de privacidad, comprueba tu conexion a Internet</string>
+    <string name="Resend_verification_code">Reenviar código de verificación</string>
+    <string name="Wrong_verification_code">Código de verificación erróneo</string>
+    <string name="Enter_the_verification_code_we_have_sent_you">Introduce el código de verificación que te hemos enviado</string>
+    <string name="Verification_error">Error de verificación</string>
+    <string name="Welcome">Bienvenido</string>
+    <string name="Contact_read_permissions_are_required_to_perform_this_action">Se necesitan permisos de lectura de contactos para realizar esta acción</string>
+    <string name="seconds">segundos</string>
+    <string name="This_phone_number_is_already_registered">Este número de telefono ya está registrado</string>
+    <string name="This_phone_number_is_not_registered">Este número de teléfono no está registrado</string>
+    <string name="Processing_data">Procesando datos...</string>
+    <string name="Log_out">Cerrar sesión</string>
+    <string name="To_log_in_enter_the_phone_number_with_which_you_registered">Para iniciar sesión introduce el número de teléfono con el que te registraste</string>
+    <string-array name="transactions_voice_assistant_statements">
+        <item>Individuales / Grupales</item>
+        <item>Positivas / Negativas</item>
+        <item>Superiores / Inferiores a [valor]</item>
+        <item>Entre [valor] y [valor]</item>
+        <item>Posteriores / Anteriores a [fecha / periodo]</item>
+        <item>Entre [x fecha / periodo] y [x fecha / periodo]</item>
+        <item>X fecha / periodo</item>
+        <item>Hace más / menos de [x tiempo]</item>
+        <item>Hace [x tiempo]</item>
+        <item>Hace exactamente [x tiempo]</item>
+        <item>De [nombres de amigos]</item>
+        <item>Agrupar</item>
+        <item>Desagrupar</item>
+        <item>Ver grupos</item>
+    </string-array>
+    <!-- EXAMPLES TRANSACTIONS -->
+    <!-- Individual / Group -->
+    <string-array name="transactions_voice_assistant_examples_ind_grp">
+        <item>Transacciones individuales</item>
+        <item>Transacciones grupales</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="transactions_voice_assistant_examples_pos_neg">
+        <item>Transacciones positivos</item>
+        <item>Transacciones negativos</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="transactions_voice_assistant_examples_higher_lower">
+        <item>Transacciones superiores a X</item>
+        <item>Transacciones inferiores a X</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="transactions_voice_assistant_examples_between_value">
+        <item>Transacciones entre X y Y</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="transactions_voice_assistant_examples_after_before">
+        <item>Transacciones posteriores al mes pasado</item>
+        <item>Transacciones anteriores al 14 de septiembre</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="transactions_voice_assistant_examples_between_dates">
+        <item>Transacciones entre el 1 de agosto y el año pasado</item>
+        <item>Transacciones entre hace una semana y ayer</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="transactions_voice_assistant_examples_date_period">
+        <item>Transacciones del 24 de noviembre</item>
+        <item>Transacciones de la primera semana de enero</item>
+        <item>Transacciones de la segunda quincena del mes pasado</item>
+        <item>Transacciones del verano</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="transactions_voice_assistant_examples_more_less">
+        <item>Transacciones de hace más de dos inviernos</item>
+        <item>Transacciones de hace menos de dos semanas</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_ago">
+        <item>Transacciones de hace un mes</item>
+        <item>Transacciones de hace cuatro días</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_exactly_ago">
+        <item>Transacciones de hace exactamente cinco días</item>
+        <item>Transacciones de hace exactamente un año</item>
+    </string-array>
+    <!-- From [friends names] -->
+    <string-array name="transactions_voice_assistant_examples_in">
+        <item>Transacciones de Juan y Ana</item>
+    </string-array>
+    <!---->
+    <string-array name="movements_voice_assistant_statements">
+        <item>Categoriales / Conceptuales</item>
+        <item>De la categoría [nombre de categoría]</item>
+        <item>Del concepto [nombre del concepto]</item>
+        <item>Positivas / Negativas</item>
+        <item>Superiores / Inferiores a [valor]</item>
+        <item>Entre [valor] y [valor]</item>
+        <item>Posteriores / Anteriores a [fecha / periodo]</item>
+        <item>Entre [x fecha / periodo] y [x fecha / periodo]</item>
+        <item>X fecha / periodo</item>
+        <item>Hace más / menos de [x tiempo]</item>
+        <item>Hace [x tiempo]</item>
+        <item>Hace exactamente [x tiempo]</item>
+        <item>En [nombres de calle, localidad, provincia, autonomía o país]</item>
+    </string-array>
+    <!-- EXAMPLES MOVEMENTS -->
+    <!-- Categorical / Conceptual -->
+    <string-array name="movements_voice_assistant_examples_concat">
+        <item>Movimientos categóricos</item>
+        <item>Movimientos conceptuales</item>
+    </string-array>
+    <!-- From category [category name] -->
+    <string-array name="movements_voice_assistant_examples_from_category">
+        <item>Movimientos de la categoría X</item>
+        <item>Movimientos de la subcategoria X</item>
+    </string-array>
+    <!-- Of the concept [name of the concept] -->
+    <string-array name="movements_voice_assistant_examples_from_concept">
+        <item>Movimientos del concepto Bizum</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="movements_voice_assistant_examples_pos_neg">
+        <item>Movimientos positivos</item>
+        <item>Movimientos negativos</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="movements_voice_assistant_examples_higher_lower">
+        <item>Movimientos superiores a X</item>
+        <item>Movimientos inferiores a X</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="movements_voice_assistant_examples_between_value">
+        <item>Movimientos entre X y Y</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="movements_voice_assistant_examples_after_before">
+        <item>Movimientos posteriores al mes pasado</item>
+        <item>Movimientos anteriores al 14 de septiembre</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="movements_voice_assistant_examples_between_dates">
+        <item>Movimientos entre el 1 de agosto y el año pasado</item>
+        <item>Movimientos entre hace una semana y ayer</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="movements_voice_assistant_examples_date_period">
+        <item>Movimientos del 24 de noviembre</item>
+        <item>Movimientos de la primera semana de enero</item>
+        <item>Movimientos de la segunda quincena del mes pasado</item>
+        <item>Movimientos del verano</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="movements_voice_assistant_examples_more_less">
+        <item>Movimientos de hace más de dos inviernos</item>
+        <item>Movimientos de hace menos de dos semanas</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_ago">
+        <item>Movimientos de hace un mes</item>
+        <item>Movimientos de hace cuatro días</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_exactly_ago">
+        <item>Movimientos de hace exactamente cinco días</item>
+        <item>Movimientos de hace exactamente un año</item>
+    </string-array>
+    <!-- In [street names, locality, province, autonomy or country] -->
+    <string-array name="movements_voice_assistant_examples_in">
+        <item>Movimientos realizados en Gipuzcoa</item>
+        <item>Movimientos realizados en San Sebastian</item>
+    </string-array>
+    <!---->
+    <string-array name="names">
+        <item>Oliver</item>
+        <item>Jack</item>
+        <item>Harry</item>
+        <item>Jacob</item>
+        <item>Charlie</item>
+        <item>Amelia</item>
+        <item>Olivia</item>
+        <item>Isla</item>
+        <item>Emily</item>
+        <item>Poppy</item>
+        <item>Antonio</item>
+        <item>Manuel</item>
+        <item>Jose</item>
+        <item>Francisco</item>
+        <item>David</item>
+        <item>Maria</item>
+        <item>Carmen</item>
+        <item>Isabel</item>
+        <item>Laura</item>
+        <item>Ana</item>
+        <item>Cristina</item>
+        <item>Markel</item>
+        <item>Jon</item>
+        <item>Julen</item>
+        <item>Aimar</item>
+        <item>Ander</item>
+        <item>Ibai</item>
+        <item>Ane</item>
+        <item>Laia</item>
+        <item>June</item>
+        <item>Irati</item>
+        <item>Nahia</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>Cero</item>
+        <item>Uno</item>
+        <item>Dos</item>
+        <item>Tres</item>
+        <item>Cuatro</item>
+        <item>Cinco</item>
+        <item>Seis</item>
+        <item>Siete</item>
+        <item>Ocho</item>
+        <item>Nueve</item>
+    </string-array>
+    <string-array name="days">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="months">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="seasons">
+        <item>Primavera</item>
+        <item>Verano</item>
+        <item>Otoño</item>
+        <item>Invierno</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Desclasificado</item>
+        <item>Alimentación|Alimentación en General,Supermercado,Restaurante,Todos los Días</item>
+        <item>Entretenimiento|Entretenimiento en General,Cine y Teatro,Discoteca,Bar,Vacaciones,Concierto,Juegos,Viajes</item>
+        <item>Auto|Auto en General,Combustible,Reparaciones,Amortización,Seguros,Lavado de Autos,Accesorios</item>
+        <item>Hogar|Hogar en General,Electricidad,Agua,Gas,Calefacción,Alquiler,Crédito,Seguros,Internet,TV,Teléfono,Mobiliario,Reparaciones,Productos de Limpieza</item>
+        <item>Ropa|Ropa en General,Pantalones,Zapatos,Suéteres,Camisas,Chaquetas,Camisetas,Bisutería,Ropa Interior</item>
+        <item>Electrónicos|Electrónica en General,Computadora,Tableta,Teléfono,TV,Impresora,Cámara,Juegos,Accesorios</item>
+        <item>Salud y Belleza|Salud y Belleza General,Cosméticos,Perfumería,Peluquería,Esteticista,Solarium,Medicamentos,Nutrientes</item>
+        <item>Niños|Niños en General,Juguetes,Ropa,Escuela,Dinero de Bolsillo</item>
+        <item>Trabajo|Trabajo en General,Salario,Bonificación,Otro</item>
+    </string-array>
+    <integer-array name="imgCategories">
+        <item>@drawable/uncategorized</item>
+        <item>@drawable/food</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/car</item>
+        <item>@drawable/home</item>
+        <item>@drawable/clothing</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/health</item>
+        <item>@drawable/children</item>
+        <item>@drawable/work</item>
+    </integer-array>
+    <string name="profile">Perfil</string>
+    <string name="chat">Charla</string>
+    <string name="person">Persona</string>
+    <string name="among_all">Grupal</string>
+    <string name="individually">Individual</string>
+    <string name="products">Productos</string>
+    <string name="product">Producto</string>
+    <string name="defaulter">Moroso</string>
+    <string name="unknown">Desconocido</string>
+    <string name="me">Yo</string>
+    <string name="ticket">Tiquet</string>
+    <string name="total">Total</string>
+    <string name="quantity">Cantidad</string>
+    <string name="units">Unidades</string>
+    <string name="remove_members">Quitar miembros</string>
+    <string name="remove_products_from_members">Quitar productos a los miembros</string>
+    <string name="pay_each_his_part">Pagar cada uno su parte</string>
+    <string name="The_transfer_of_data_from_OLD_MODEL_to_NEW_MODEL_carries_a_cost">La transferencia de los datos de OLD_MODEL a NEW_MODEL conlleva un coste</string>
+    <string name="transferring_the_data_from_OLD_MODEL_to_NEW_MODEL">Transfiriendo los datos desde OLD_MODEL a NEW_MODEL</string>
+    <string name="this_is_the_Economic_Supervision_verification_code">Este es el código de verificación de Supervisión Económica</string>
+    <string name="Portability_of_data_from_one_device_to_another_comes_at_a_cost">La recuperación de los datos conlleva un coste</string>
+    <string name="I_agree_to_port_the_data_to_the_current_device">Acepto recuperar los datos que tenía anteriormente</string>
+    <string name="I_agree_to_receive_an_SMS_in_order_to_authenticate_myself_in_the_application">Acepto recibir un SMS con el fin de autenticarme en la aplicación</string>
+    <string name="You_must_enter_the_device_identifier_and_phone_number_you_used_when_you_signed_up_for_the_app">Debes introducir el código de recuperación y el número de teléfono que utilizazte cuando te registraste en la aplicación</string>
+    <string name="It_is_recommended_to_register_with_the_same_phone_number_of_the_SIM_card_that_contains_your_mobile_device">Es recomendable registrarse con el mismo numero de teléfono de la tarjeta SIM que contenga tu dispositivo móvil</string>
+    <string name="Porting_the_data_to_your_current_device">Recuperando los datos</string>
+</resources>

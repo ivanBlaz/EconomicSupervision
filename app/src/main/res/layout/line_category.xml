@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:cardBackgroundColor="#000000"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvCCMoney"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvCC"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvCCProf"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="2.312.342,54"
+            android:textAlignment="center"
+            android:textColor="@color/colorIncome"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvCCLoss"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txtvCCLoss"
+            app:layout_constraintTop_toTopOf="@+id/txtvCCLoss"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <ImageView
+            android:id="@+id/imgvCC"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/home" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvCCLoss"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="9.999.999.999.999.999.999,99"
+            android:textAlignment="center"
+            android:textColor="@color/colorExpense"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgvCCLoss"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvCC"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:text="Proyecto Walking"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgvCC"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgvCCLoss"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtvCCProf"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvCCMoney"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/expense" />
+
+        <ImageView
+            android:id="@+id/imgvCCLossStatus"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/round_black"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvCCLoss"
+            app:layout_constraintEnd_toEndOf="@+id/imgvCCLoss"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imgvCCLoss"
+            app:layout_constraintTop_toTopOf="@+id/imgvCCLoss"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/expenses_down" />
+
+        <ImageView
+            android:id="@+id/imgvCCProf"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvCCLoss"
+            app:layout_constraintEnd_toEndOf="@+id/txtvCCProf"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/txtvCCProf"
+            app:layout_constraintTop_toTopOf="@+id/imgvCCLoss"
+            app:layout_constraintVertical_bias="0.086"
+            app:srcCompat="@drawable/income" />
+
+        <ImageView
+            android:id="@+id/imgvCCProfStatus"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/round_black"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvCCProf"
+            app:layout_constraintEnd_toEndOf="@+id/imgvCCProf"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imgvCCProf"
+            app:layout_constraintTop_toTopOf="@+id/imgvCCProf"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/income_up" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/colorApp"
+            app:layout_constraintBottom_toTopOf="@+id/rvCC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvCCLoss"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

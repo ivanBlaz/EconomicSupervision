@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.devivan.economicsupervision">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode"
+        tools:replace="allowBackup">
+        <activity android:name=".Activities.LogIn.LogInStep1_sms_Activity"></activity>
+        <!-- Sign Up -->
+        <activity
+            android:name=".Activities.SignUp.SignUpStep0_name_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.SignUp.SignUpStep1_currency_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.SignUp.SignUpStep2_money_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.SignUp.SignUpStep3_phoneNumber_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.SignUp.SignUpStep4_sms_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" /> <!-- Log In -->
+        <activity
+            android:name=".Activities.LogIn.LogInStep0_phoneNumber_Activity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Transactions -->
+        <activity
+            android:name=".Activities.TransactionsActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.ConCatActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.LicensesActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".Activities.MovementsActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC2HHt5kxy4bfwl_TLSllXCpmMn9Mqji7Q" />
+    </application>
+
+</manifest>

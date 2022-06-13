@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clActivityLogInStep0PhoneNumber"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:clickable="true"
+    tools:context=".Activities.LogIn.LogInStep0_phoneNumber_Activity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/btnSignUp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvSignUp"
+        app:layout_constraintEnd_toStartOf="@+id/txtvSignUp"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvSignUp"
+        app:layout_constraintVertical_bias="0.5"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="log_in.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/txtvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign U"
+        android:textColor="@color/colorApp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieNext"
+        app:layout_constraintEnd_toStartOf="@+id/lottieNext"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lottieNext"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/btnSignUpO"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvSignUp"
+        app:layout_constraintEnd_toStartOf="@+id/lottieNext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/divider6"
+        app:layout_constraintTop_toTopOf="@+id/txtvSignUp"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/point" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvSignUp"
+        app:layout_constraintEnd_toStartOf="@+id/lottieNext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtvSignUp"
+        app:layout_constraintTop_toTopOf="@+id/btnSignUp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cbAutoSendSMS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAppNotSelected"
+        android:text="@string/I_agree_to_receive_an_SMS_in_order_to_authenticate_myself_in_the_application"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtvPhoneNumber"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/countryCodePicker"
+        app:layout_constraintTop_toBottomOf="@+id/txtvDownloadTermsOfService2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/btnStep1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintTop_toTopOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/dot_shape" />
+
+    <ImageView
+        android:id="@+id/btnStep0"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnStep2"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/dot" />
+
+    <TextView
+        android:id="@+id/btnPrivacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/colorApp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvDownloadTermsOfService3"
+        app:layout_constraintEnd_toEndOf="@+id/cbAutoSendSMS"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvDownloadTermsOfService3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+        android:id="@+id/txtvDownloadTermsOfService3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/and"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrivacyPolicy"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lottieNext2"
+        app:layout_constraintTop_toBottomOf="@+id/txtvDownloadTermsOfService"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/btnLicenseTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/the_license_terms"
+        android:textColor="@color/colorApp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvDownloadTermsOfService"
+        app:layout_constraintEnd_toEndOf="@+id/cbAutoSendSMS"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvDownloadTermsOfService"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+        android:id="@+id/txtvDownloadTermsOfService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/By_continuing_you_are_accepting"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnLicenseTerms"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lottieNext2"
+        app:layout_constraintTop_toBottomOf="@+id/cbAutoSendSMS"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieNext2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/countryCodePicker"
+        app:layout_constraintTop_toBottomOf="@+id/txtvPhoneNumber"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="info.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/txtvDownloadTermsOfService2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/To_log_in_enter_the_phone_number_with_which_you_registered"
+        android:textColor="@color/colorApp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieNext2"
+        app:layout_constraintEnd_toEndOf="@+id/txtvPhoneNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lottieNext2"
+        app:layout_constraintTop_toTopOf="@+id/lottieNext2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieNext"
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="next.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/txtvPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/box_with_round"
+        android:ellipsize="start"
+        android:hint="@string/Phone"
+        android:inputType="phone"
+        android:maxLength="16"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorHint"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/countryCodePicker"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/phone_number" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/What_is_your_phone_number"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/box_selected_with_round"
+        app:ccpDialog_backgroundColor="@android:color/black"
+        app:ccpDialog_textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvPhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvPhoneNumber"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/btnStep0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnStep0"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

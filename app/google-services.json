@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "291398754446",
+    "firebase_url": "https://economic-supervision.firebaseio.com",
+    "project_id": "economic-supervision",
+    "storage_bucket": "economic-supervision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291398754446:android:105efe07632ee29cd369df",
+        "android_client_info": {
+          "package_name": "com.devivan.economicsupervision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291398754446-6e2n2mc79tbde1q6si1bhgcsus4vcjbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devivan.economicsupervision",
+            "certificate_hash": "7fe1a24032ac7bd57bb89dc34ec214560d0eecf4"
+          }
+        },
+        {
+          "client_id": "291398754446-m68kkk2t6s96868na913nbl3pc50jkkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSeeNf3Vvjz9Ssb1eaz9pBwbVyMGrcEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291398754446-m68kkk2t6s96868na913nbl3pc50jkkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

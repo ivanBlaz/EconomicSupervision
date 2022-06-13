@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Economic Supervision</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="just_one_more_step">Just one more step</string>
+    <string name="sms_verification_code">Account code</string>
+    <string name="sms_verification_code_message">Your Economic Supervision code is:</string>
+    <string name="sms_invitation">Your Economic Supervision code is:</string>
+    <string name="sms_request_code">Request code</string>
+    <string name="and">and</string>
+    <string name="or">or</string>
+    <string name="participants">participants</string>
+    <string name="Not_found">Not found</string>
+    <string name="paid">Paid</string>
+    <string name="not_paid">not paid</string>
+    <string name="completed">completed</string>
+    <string name="not_completed">not completed</string>
+    <string name="delete_debts">Delete debts</string>
+    <string name="delete_payment_credits">Delete payment credits</string>
+    <string name="have_payments">have payments</string>
+    <string name="Have_Payments">Have Payments</string>
+    <string name="debts">debts</string>
+    <string name="new_payment_credit">New payment credit</string>
+    <string name="NAME_new_payment_credit_of_VALUE">NAME´s new payment credit of VALUE</string>
+    <string name="new_debt">New debt</string>
+    <string name="New_debt_to_NAME_of_VALUE">New debt to NAME of VALUE</string>
+    <string name="new_participant">New participant</string>
+    <string name="Something_went_wrong">Something went wrong</string>
+    <string name="to_pay">To pay</string>
+    <string name="to_receive">to receive</string>
+    <string name="incalculable">incalculable</string>
+    <string name="new_group">New group</string>
+    <string name="nobody">Nobody</string>
+    <string name="It_has_not_been_possible_to_perform_this_action">It has not been possible to perform this action</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="The_data_entered_is_not_correct">The data entered is not correct</string>
+    <string name="Go_to">Go to</string>
+    <string name="permanently">permanently</string>
+    <string name="with_a_single_payment_and_you_will_have">with a single payment... and you will have...</string>
+    <string name="three_accounts">3 accounts</string>
+    <string name="The_possibility_of_creating_2_more_accounts">The possibility of creating two more accounts</string>
+    <string name="Group_payment_creation">- Group payment creation</string>
+    <string name="Voice_motion_filtering">- Filtering of transactions and movements by voice</string>
+    <string name="Data_recovery_from_your_old_device">- Data recovery at no additional cost</string>
+    <string name="Get_premium">Get premium</string>
+    <string name="forever">forever</string>
+    <string name="Donate">Donate</string>
+    <string name="Old_device_id">Old device id</string>
+    <string name="ODID">ODID</string>
+    <string name="Phone">Tel. No.</string>
+    <string name="Phone_number">Phone number</string>
+    <string name="Recover_data">Recover data</string>
+    <string name="The_phone_number_entered_must_be_the_same_as_the_SIM_card_that_contains_this_mobile_device">The phone number entered must be the same as the SIM card that contains this mobile device.</string>
+    <string name="I_agree_to_send_an_SMS_in_order_to_authenticate_myself_in_the_application">I agree to send an SMS in order to authenticate myself in the application.</string>
+    <string name="I_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">I accept the Terms of Service and the Privacy Policy of the application.</string>
+    <string name="What_is_your_name">What is your name?</string>
+    <string name="What_currency_do_you_use">What currency do you use?</string>
+    <string name="How_much_money_do_you_handle">How much money do you handle?</string>
+    <string name="What_is_your_phone_number">What is your phone number?</string>
+    <string name="Download_Terms_of_Service">Download Terms of Service.</string>
+    <string name="Download_Privacy_Policy">Download Privacy Policy.</string>
+    <string name="Waiting_for_SMS_verification_code">Waiting for SMS verification code...</string>
+    <string name="The_name_must_be_between_1_and_10_letters">The name must be between 1 and 10 letters</string>
+    <string name="Searching_for_device">Searching for device...</string>
+    <string name="Device_found">Device found...</string>
+    <string name="You_must_accept_the_condition">You must accept the condition</string>
+    <string name="Wrong_device_id_or_phone_number">Wrong recovery code or phone number</string>
+    <string name="If_you_go_back_you_can_continue_with_the_registration">If you go back you can continue with the registration...</string>
+    <string name="You_must_accept_the_Terms_of_Service_and_the_Privacy_Policy_of_the_application">You must accept the Terms of Service and the Privacy Policy of the application</string>
+    <string name="The_phone_number_must_be_between_8_and_10_digits_long">The phone number must have between 8 and 10 digits</string>
+    <string name="does_not_exist_as_currency">does not exist as currency</string>
+    <string name="Go_premium_and_you_can_enjoy_this_option">Go premium and you can enjoy this option</string>
+    <string name="You_have_reached_the_limit_of_available_account">You have reached the limit of available accounts</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Password">Password</string>
+    <string name="Enabled">Enabled</string>
+    <string name="Disabled">Disabled</string>
+    <string name="Thanks_to_the_copied_code_you_will_be_able_to_recover_the_data_from_another_device">Thanks to the copied code you will be able to recover the data in the future</string>
+    <string name="See_the_advantages_you_have_with_premium">See the advantages you have with premium</string>
+    <string name="Build_new_account">Build new account</string>
+    <string name="Build_account">Build account</string>
+    <string name="Destroy_account">Destroy account</string>
+    <string name="More_accounts">More accounts</string>
+    <string name="Switch_account">Switch account</string>
+    <string name="Security_system">Security system</string>
+    <string name="Donation">Donation</string>
+    <string name="Thank_you_very_much_for_your_donation">Thank you very much for your donation</string>
+    <string name="How_much_does_he_owe_you">How much does NAME owe you?</string>
+    <string name="How_much_do_you_owe">How much do you owe NAME?</string>
+    <string name="Owes_you">NAME owes you X,XX?</string>
+    <string name="You_owe_to">You owe X,XX to NAME?</string>
+    <string name="How_much_do_they_owe_you">How much do they owe you?</string>
+    <string name="between">between</string>
+    <string name="Example">Example</string>
+    <string name="friends_and_you_are_responsible_for_paying">Y friends and you are responsible for paying X,XX?</string>
+    <string name="and_you_are_responsible_for_paying">Y and you are responsible for paying X,XX?</string>
+    <string name="The_group_must_be_made_up_of_at_least_2_friends_and_you">The group must be made up of at least 2 (maximum 32) friends and you</string>
+    <string name="What_do_you_want_to_call_the_group">What do you want to call the group?</string>
+    <string name="Check_your_internet_connection">Check your internet connection</string>
+    <string name="Who___How_many_owe_you">[Who / How many owe you]</string>
+    <string name="Value_to_pay">[Value to pay]</string>
+    <string name="You_have_reached_the_maximum_OBJECT_limit">You have reached the maximum OBJECT limit</string>
+    <string name="Accounts">Accounts</string>
+    <string name="Concepts">Concepts</string>
+    <string name="Categories">Categories</string>
+    <string name="Should">Should</string>
+    <string name="Have">Have</string>
+    <string name="Payments">Payments</string>
+    <string name="Debts">Debts</string>
+    <string name="Group_Payments">Group Payments</string>
+    <string name="Transactions">Transactions</string>
+    <string name="Conceptual__Categorical_Movements">[Conceptual / Categorical] Movements</string>
+    <string name="Movements">Movements</string>
+    <string name="WhatsApp_is_not_installed_on_this_device">WhatsApp is not installed on this device</string>
+    <string name="The_minimum_value_per_person_is_X">The minimum value per person is X</string>
+    <string name="The_maximum_value_per_person_is_X">The maximum value per person is X</string>
+    <string name="LANGUAGE_is_not_supported_by_voice_assistant">LANGUAGE is not supported by voice assistant</string>
+    <string name="A_moment_ago">A moment ago</string>
+    <string name="A_minute_ago">A minute ago</string>
+    <string name="An_hour_ago">An hour ago</string>
+    <string name="X_minutes_ago">X minutes ago</string>
+    <string name="X_hours_ago">X hours ago</string>
+    <string name="Today">Today</string>
+    <string name="Yesterday">Yesterday</string>
+    <string name="X_days_ago">X days ago</string>
+    <string name="Friends">Friends</string>
+    <string name="Groups">Groups</string>
+    <string name="Save_changes">Save changes</string>
+    <string name="Starting_money_amount_and_currency">Starting money amount and currency</string>
+    <string name="Account_name">Account name</string>
+    <string name="You_have_reached_the_maximum_data_size">You have reached the maximum data size</string>
+    <string name="Expenses">Expenses</string>
+    <string name="Income">Income</string>
+    <string name="Filter">Filter</string>
+    <string name="Filtering">Filtering...</string>
+    <string name="Add_payment">Add payment</string>
+    <string name="Grant_permission">Grant permission</string>
+    <string name="For_some_reason_the_data_has_been_deleted">For some reason the data has been deleted</string>
+    <string name="No_transaction_found">No transaction found</string>
+    <string name="No_movement_found">No movement found</string>
+    <string name="The_application_must_be_updated">The application must be updated</string>
+    <string name="Thank_you_very_much_for_trusting_Premium">Thank you very much for trusting Premium</string>
+    <string name="Make_sure_you_have_your_data_protected">Make sure you have your data protected</string>
+    <string name="Data_recovery">Data recovery</string>
+    <string name="Click_to_copy_the_data_recovery_code_for_this_device">Click to copy the data recovery code</string>
+    <string name="Device_id">Recovery code</string>
+    <string name="Make_sure_you_have_a_good_internet_connection_before_making_the_payment">Make sure you have a good internet connection before making the payment</string>
+    <string name="Download_Flaticon_Attributions">Download Flaticon Attributions</string>
+    <string name="Download_LottieFiles_Attributions">Download LottieFiles Attributions</string>
+    <string name="See_all_image_animation_and_software_licenses">See all image, animation and software licenses</string>
+    <string name="Licenses">Licenses</string>
+    <string name="Images">Images</string>
+    <string name="Animations">Animations</string>
+    <string name="Software">Software</string>
+    <string name="You_must_enter_a_valid_amount">You must enter a valid amount</string>
+    <string name="Voice_assistant_title">These are all the sentences to which I can answer... And remember that you can combine them to find the results you want...</string>
+    <string name="SMS_permissions_are_required_to_register">SMS permissions are required to register</string>
+    <string name="Microphone_and_contact_read_permissions_are_required_to_perform_and_filter_transactions">Microphone and contact read permissions are required to perform and filter transactions</string>
+    <string name="Location_permits_are_required_to_perform_movements">Location permits are required to perform movements</string>
+    <string name="Microphone_permissions_are_required_to_filter_movements">Microphone permissions are required to filter movements</string>
+    <string name="By_continuing_you_are_accepting">By continuing you are accepting</string>
+    <string name="the_license_terms">the license terms...</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="It_has_not_been_possible_to_download_the_privacy_policy__check_your_Internet_connection">It has not been possible to download the privacy policy, check your Internet connection</string>
+    <string name="Resend_verification_code">Resend verification code</string>
+    <string name="Wrong_verification_code">Wrong verification code</string>
+    <string name="Enter_the_verification_code_we_have_sent_you">Enter the verification code we have sent you</string>
+    <string name="Verification_error">Verification error</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Contact_read_permissions_are_required_to_perform_this_action">Contact read permissions are required to perform this action</string>
+    <string name="seconds">seconds</string>
+    <string name="This_phone_number_is_already_registered">This phone number is already registered</string>
+    <string name="This_phone_number_is_not_registered">This phone number is not registered</string>
+    <string name="Processing_data">Processing data...</string>
+    <string name="Log_out">Log out</string>
+    <string name="To_log_in_enter_the_phone_number_with_which_you_registered">To log in, enter the phone number with which you registered</string>
+    <string-array name="transactions_voice_assistant_statements">
+        <item>Individual / Group</item>
+        <item>Positive / Negative</item>
+        <item>Higher / Lower than [value]</item>
+        <item>Between [value] and [value]</item>
+        <item>After / Before [date / period]</item>
+        <item>Between [x date / period] and [x date / period]</item>
+        <item>X date / period</item>
+        <item>More / less than [x time]</item>
+        <item>[x time] ago</item>
+        <item>Exactly [x time] ago</item>
+        <item>From [friends names]</item>
+        <item>Group</item>
+        <item>Ungroup</item>
+        <item>Show groups</item>
+    </string-array>
+    <!-- EXAMPLES TRANSACTIONS -->
+    <!-- Individual / Group -->
+    <string-array name="transactions_voice_assistant_examples_ind_grp">
+        <item>Individual transactions</item>
+        <item>Group transactions</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="transactions_voice_assistant_examples_pos_neg">
+        <item>Positive transactions</item>
+        <item>Negative transactions</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="transactions_voice_assistant_examples_higher_lower">
+        <item>Transactions higher than X</item>
+        <item>Transactions lower than X</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="transactions_voice_assistant_examples_between_value">
+        <item>Transactions between X and Y</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="transactions_voice_assistant_examples_after_before">
+        <item>Transactions after last month</item>
+        <item>Transactions before 14 of September</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="transactions_voice_assistant_examples_between_dates">
+        <item>Transactions between August 1 and last year</item>
+        <item>Transactions between a week ago and yesterday</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="transactions_voice_assistant_examples_date_period">
+        <item>November 24 transactions</item>
+        <item>Transactions of first week of January</item>
+        <item>Transactions of second fortnight of last month</item>
+        <item>Summer transactions</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="transactions_voice_assistant_examples_more_less">
+        <item>Transactions from more than a winter ago</item>
+        <item>Transactions from less than two weeks ago</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_ago">
+        <item>Transactions from a month ago</item>
+        <item>Transactions from four days ago</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="transactions_voice_assistant_examples_exactly_ago">
+        <item>Transactions from exactly five days ago</item>
+        <item>Transactions from exactly one year ago</item>
+    </string-array>
+    <!-- From [friends names] -->
+    <string-array name="transactions_voice_assistant_examples_in">
+        <item>Michael and Anna transactions</item>
+    </string-array>
+    <!---->
+    <string-array name="movements_voice_assistant_statements">
+        <item>Categorical / Conceptual</item>
+        <item>From category [category name]</item>
+        <item>Of the concept [name of the concept]</item>
+        <item>Positive / Negative</item>
+        <item>Higher / Lower than [value]</item>
+        <item>Between [value] and [value]</item>
+        <item>After / Before [date / period]</item>
+        <item>Between [x date / period] and [x date / period]</item>
+        <item>X date / period</item>
+        <item>More / Less than [x time]</item>
+        <item>[x time] ago</item>
+        <item>Exactly [x time] ago</item>
+        <item>In [street names, locality, province, autonomy or country]</item>
+    </string-array>
+    <!-- EXAMPLES MOVEMENTS -->
+    <!-- Categorical / Conceptual -->
+    <string-array name="movements_voice_assistant_examples_concat">
+        <item>Categorical movements</item>
+        <item>Conceptual movements</item>
+    </string-array>
+    <!-- From category [category name] -->
+    <string-array name="movements_voice_assistant_examples_from_category">
+        <item>Movements of the X category</item>
+        <item>Movements of the X subcategory</item>
+    </string-array>
+    <!-- Of the concept [name of the concept] -->
+    <string-array name="movements_voice_assistant_examples_from_concept">
+        <item>Bizum concept movements</item>
+    </string-array>
+    <!-- Positive / Negative -->
+    <string-array name="movements_voice_assistant_examples_pos_neg">
+        <item>Positive movements</item>
+        <item>Negative movements</item>
+    </string-array>
+    <!-- Higher / Lower than [value] -->
+    <string-array name="movements_voice_assistant_examples_higher_lower">
+        <item>Movements higher than X</item>
+        <item>Movements lower than X</item>
+    </string-array>
+    <!-- Between [value] and [value] -->
+    <string-array name="movements_voice_assistant_examples_between_value">
+        <item>Movements between X and Y</item>
+    </string-array>
+    <!-- After / Before [date / period] -->
+    <string-array name="movements_voice_assistant_examples_after_before">
+        <item>Movements after last month</item>
+        <item>Movements before 14 of September</item>
+    </string-array>
+    <!-- Between [x date / period] and [x date / period] -->
+    <string-array name="movements_voice_assistant_examples_between_dates">
+        <item>Movements between August 1 and last year</item>
+        <item>Movements between a week ago and yesterday</item>
+    </string-array>
+    <!-- X date / period -->
+    <string-array name="movements_voice_assistant_examples_date_period">
+        <item>November 24 movements</item>
+        <item>Movements of first week of January</item>
+        <item>Movements of second fortnight of last month</item>
+        <item>Summer movements</item>
+    </string-array>
+    <!-- More / Less than [x time] -->
+    <string-array name="movements_voice_assistant_examples_more_less">
+        <item>Movements from more than a winter ago</item>
+        <item>Movements from less than two weeks ago</item>
+    </string-array>
+    <!-- [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_ago">
+        <item>Movements from a month ago</item>
+        <item>Movements from four days ago</item>
+    </string-array>
+    <!-- Exactly [x time] ago -->
+    <string-array name="movements_voice_assistant_examples_exactly_ago">
+        <item>Movements from exactly five days ago</item>
+        <item>Movements from exactly one year ago</item>
+    </string-array>
+    <!-- In [street names, locality, province, autonomy or country] -->
+    <string-array name="movements_voice_assistant_examples_in">
+        <item>Movements made in Spain</item>
+        <item>Movements made in Madrid</item>
+    </string-array>
+    <!---->
+    <string-array name="names">
+        <item>Oliver</item>
+        <item>Jack</item>
+        <item>Harry</item>
+        <item>Jacob</item>
+        <item>Charlie</item>
+        <item>Amelia</item>
+        <item>Olivia</item>
+        <item>Isla</item>
+        <item>Emily</item>
+        <item>Poppy</item>
+        <item>Antonio</item>
+        <item>Manuel</item>
+        <item>Jose</item>
+        <item>Francisco</item>
+        <item>David</item>
+        <item>Maria</item>
+        <item>Carmen</item>
+        <item>Isabel</item>
+        <item>Laura</item>
+        <item>Ana</item>
+        <item>Cristina</item>
+        <item>Markel</item>
+        <item>Jon</item>
+        <item>Julen</item>
+        <item>Aimar</item>
+        <item>Ander</item>
+        <item>Ibai</item>
+        <item>Ane</item>
+        <item>Laia</item>
+        <item>June</item>
+        <item>Irati</item>
+        <item>Nahia</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>Zero</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+    </string-array>
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="seasons">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Declassified</item>
+        <item>Food|Food General,Supermarket,Restaurant,Every Day</item>
+        <item>Entertainment|Entertainment General,Cinema and Theatre,Disco,Bar,Holiday,Concert,Games,Trips</item>
+        <item>Car|Car General,Fuel,Repairs,Amortization,Insurance,Car Wash,Accessories</item>
+        <item>Home|Home General,Electricity,Water,Gas,Heating,Rent,Credit,Insurance,Internet,TV,Telephone,Furniture,Repairs,Cleaning Products</item>
+        <item>Clothing|Clothing General,Trousers,Shoes,Sweaters,Shirts,Jackets,T-shirts,Jewellery,Underwear</item>
+        <item>Electronics|Electronics General,Computer,Tablet,Telephone,TV,Printer,Camera,Games,Accessories</item>
+        <item>Health and Beauty|Health and Beauty General,Cosmetics,Perfume,Hairdresser,Beautician,Solarium,Medicament,Nutrients</item>
+        <item>Children|Children General,Toys,Clothing,School,Pocket Money</item>
+        <item>Work|Work General,Salary,Bonus,Other</item>
+    </string-array>
+    <integer-array name="imgCategories">
+        <item>@drawable/uncategorized</item>
+        <item>@drawable/food</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/car</item>
+        <item>@drawable/home</item>
+        <item>@drawable/clothing</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/health</item>
+        <item>@drawable/children</item>
+        <item>@drawable/work</item>
+    </integer-array>
+    <!-- IMAGES -->
+    <!-- srip -->
+    <string-array name="srip_urls">
+        <item>https://www.flaticon.com/free-icon/add_1237946</item>
+    </string-array>
+    <string-array name="srip_resources">
+        <item>@drawable/plus_blue</item>
+    </string-array>
+    <!-- freepik -->
+    <string-array name="freepik_urls">
+        <item>https://www.flaticon.com/free-icon/arrow-down-sign-to-navigate_32195</item>
+        <item>https://www.flaticon.com/free-icon/upload_130906</item>
+        <item>https://www.flaticon.com/free-icon/steering-wheel_3190249</item>
+        <item>https://www.flaticon.com/free-icon/pacifier_2176669</item>
+        <item>https://www.flaticon.com/premium-icon/click_4103868</item>
+        <item>https://www.flaticon.com/free-icon/casual-t-shirt_107499</item>
+        <item>https://www.flaticon.com/free-icon/withdraw_1697129</item>
+        <item>https://www.flaticon.com/free-icon/apple_672699</item>
+        <item>https://www.flaticon.com/free-icon/cubes_838524</item>
+        <item>https://www.flaticon.com/free-icon/man-user_74472</item>
+        <item>https://www.flaticon.com/free-icon/user-group_74577</item>
+        <item>https://www.flaticon.com/free-icon/minus_56889</item>
+        <item>https://www.flaticon.com/free-icon/maps-and-flags_447031</item>
+        <item>https://www.flaticon.com/free-icon/transaction_879890</item>
+    </string-array>
+    <string-array name="freepik_resources">
+        <item>@drawable/arrow_down</item>
+        <item>@drawable/arrow_up</item>
+        <item>@drawable/car</item>
+        <item>@drawable/children</item>
+        <item>@drawable/click</item>
+        <item>@drawable/clothing</item>
+        <item>@drawable/expense</item>
+        <item>@drawable/food</item>
+        <item>@drawable/furnitures</item>
+        <item>@drawable/individual_user</item>
+        <item>@drawable/group_of_users</item>
+        <item>@drawable/minus_blue</item>
+        <item>@drawable/pin</item>
+        <item>@drawable/transaction</item>
+    </string-array>
+    <!-- pixelperfect -->
+    <string-array name="pixelperfect_urls">
+        <item>https://www.flaticon.com/free-icon/clock_1827379</item>
+        <item>https://www.flaticon.com/free-icon/plug_633948</item>
+        <item>https://www.flaticon.com/free-icon/up-arrow_626078</item>
+        <item>https://www.flaticon.com/free-icon/minus_1828899</item>
+        <item>https://www.flaticon.com/free-icon/plus_1828817</item>
+    </string-array>
+    <string-array name="pixelperfect_resources">
+        <item>@drawable/clock</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/arrow_up_blue</item>
+        <item>@drawable/minus</item>
+        <item>@drawable/plus</item>
+    </string-array>
+    <!-- stockio -->
+    <string-array name="stockio_urls">
+        <item>https://www.flaticon.com/premium-icon/x_657059</item>
+    </string-array>
+    <string-array name="stockio_resources">
+        <item>@drawable/delete_x</item>
+    </string-array>
+    <!-- thoseicons -->
+    <string-array name="thoseicons_urls">
+        <item>https://www.flaticon.com/free-icon/enter_2087840</item>
+        <item>https://www.flaticon.com/free-icon/balloon_773095</item>
+        <item>https://www.flaticon.com/free-icon/menu_2089792</item>
+    </string-array>
+    <string-array name="thoseicons_resources">
+        <item>@drawable/enter</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/uncategorized</item>
+    </string-array>
+    <!-- smashicons -->
+    <string-array name="smashicons_urls">
+        <item>https://www.flaticon.com/free-icon/mask_2904203</item>
+        <item>https://www.flaticon.com/premium-icon/briefcase_4071301</item>
+    </string-array>
+    <string-array name="smashicons_resources">
+        <item>@drawable/health</item>
+        <item>@drawable/work</item>
+    </string-array>
+    <!-- apien -->
+    <string-array name="apien_urls">
+        <item>https://www.flaticon.com/premium-icon/question-mark_3647569</item>
+    </string-array>
+    <string-array name="apien_resources">
+        <item>@drawable/help</item>
+    </string-array>
+    <!-- davegandy -->
+    <string-array name="davegandy_urls">
+        <item>https://www.flaticon.com/free-icon/home_25694</item>
+    </string-array>
+    <string-array name="davegandy_resources">
+        <item>@drawable/home</item>
+    </string-array>
+    <!-- kerismaker -->
+    <string-array name="kerismaker_urls">
+        <item>https://www.flaticon.com/premium-icon/money_2914804</item>
+    </string-array>
+    <string-array name="kerismaker_resources">
+        <item>@drawable/money</item>
+    </string-array>
+    <!-- roundicons -->
+    <string-array name="roundicons_urls">
+        <item>https://www.flaticon.com/free-icon/smartphone_254638</item>
+    </string-array>
+    <string-array name="roundicons_resources">
+        <item>@drawable/phone_number</item>
+    </string-array>
+    <!-- google -->
+    <string-array name="google_urls">
+        <item>https://www.flaticon.com/free-icon/button_565665</item>
+    </string-array>
+    <string-array name="google_resources">
+        <item>@drawable/point</item>
+    </string-array>
+    <!-- ANIMATIONS -->
+    <!-- vik4graphic -->
+    <string-array name="vik4graphic_urls">
+        <item>https://lottiefiles.com/7326-number-0-animate</item>
+        <item>https://lottiefiles.com/7327-number-1-animate</item>
+        <item>https://lottiefiles.com/7328-number-2-animate</item>
+        <item>https://lottiefiles.com/7329-number-3-animate</item>
+        <item>https://lottiefiles.com/7330-number-4-animate</item>
+        <item>https://lottiefiles.com/7331-number-5-animate</item>
+        <item>https://lottiefiles.com/7332-number-6-animate</item>
+        <item>https://lottiefiles.com/7333-number-7-animate</item>
+        <item>https://lottiefiles.com/7334-number-8-animate</item>
+        <item>https://lottiefiles.com/7335-number-9-animate</item>
+        <item>https://lottiefiles.com/6734-404-error-glitch-2</item>
+    </string-array>
+    <string-array name="vik4graphic_resources">
+        <item>0.json</item>
+        <item>1.json</item>
+        <item>2.json</item>
+        <item>3.json</item>
+        <item>4.json</item>
+        <item>5.json</item>
+        <item>6.json</item>
+        <item>7.json</item>
+        <item>8.json</item>
+        <item>9.json</item>
+        <item>outside_the_system.json</item>
+    </string-array>
+    <!-- lottiefilez -->
+    <string-array name="lottiefilez_urls">
+        <item>https://lottiefiles.com/237-decline-arrows</item>
+    </string-array>
+    <string-array name="lottiefilez_resources">
+        <item>arrow_left.json</item>
+    </string-array>
+    <!-- samymenai -->
+    <string-array name="samymenai_urls">
+        <item>https://lottiefiles.com/703-navis-loader</item>
+    </string-array>
+    <string-array name="samymenai_resources">
+        <item>astronaut.json</item>
+    </string-array>
+    <!-- LottieFiles -->
+    <string-array name="LottieFiles_urls">
+        <item>https://lottiefiles.com/13139-back-arrow</item>
+    </string-array>
+    <string-array name="LottieFiles_resources">
+        <item>back.json</item>
+    </string-array>
+    <!-- v3ut3n7a2o -->
+    <string-array name="v3ut3n7a2o_urls">
+        <item>https://lottiefiles.com/62632-backups</item>
+    </string-array>
+    <string-array name="v3ut3n7a2o_resources">
+        <item>backup.json</item>
+    </string-array>
+    <!-- kobro -->
+    <string-array name="kobro_urls">
+        <item>https://lottiefiles.com/65770-info-icon-wave</item>
+    </string-array>
+    <string-array name="kobro_resources">
+        <item>info.json</item>
+    </string-array>
+    <!-- emckee -->
+    <string-array name="emckee_urls">
+        <item>https://lottiefiles.com/817-no-internet-connection</item>
+    </string-array>
+    <string-array name="emckee_resources">
+        <item>connectivity.json</item>
+    </string-array>
+    <!-- colorstreak -->
+    <string-array name="colorstreak_urls">
+        <item>https://lottiefiles.com/7908-loading</item>
+    </string-array>
+    <string-array name="colorstreak_resources">
+        <item>filtering.json</item>
+    </string-array>
+    <!-- user/90710 -->
+    <string-array name="user90710_urls">
+        <item>https://lottiefiles.com/8220-loding</item>
+    </string-array>
+    <string-array name="user90710_resources">
+        <item>loading.json</item>
+    </string-array>
+    <!-- user/762847 -->
+    <string-array name="user762847_urls">
+        <item>https://lottiefiles.com/52786-recording-bubble</item>
+    </string-array>
+    <string-array name="user762847_resources">
+        <item>microphone.json</item>
+    </string-array>
+    <!-- tuua9xvvx2 -->
+    <string-array name="tuua9xvvx2_urls">
+        <item>https://lottiefiles.com/76674-arrow-right</item>
+    </string-array>
+    <string-array name="tuua9xvvx2_resources">
+        <item>next.json</item>
+    </string-array>
+    <!-- splashanimation -->
+    <string-array name="splashanimation_urls">
+        <item>https://lottiefiles.com/20311-message-sms-animation-loading-loop</item>
+    </string-array>
+    <string-array name="splashanimation_resources">
+        <item>sms.json</item>
+    </string-array>
+    <!-- nikhita -->
+    <string-array name="nikhita_urls">
+        <item>https://lottiefiles.com/28497-profile-icon</item>
+    </string-array>
+    <string-array name="nikhita_resources">
+        <item>log_in.json</item>
+    </string-array>
+    <!-- tanjil -->
+    <string-array name="tanjil_urls">
+        <item>https://lottiefiles.com/102228-data-processing</item>
+    </string-array>
+    <string-array name="tanjil_resources">
+        <item>data_processing.json</item>
+    </string-array>
+    <string name="profile">Profile</string>
+    <string name="chat">Chat</string>
+    <string name="person">Person</string>
+    <string name="among_all">Group</string>
+    <string name="individually">Individual</string>
+    <string name="products">Products</string>
+    <string name="product">Product</string>
+    <string name="defaulter">Defaulter</string>
+    <string name="unknown">Unknown</string>
+    <string name="me">Me</string>
+    <string name="ticket">Ticket</string>
+    <string name="total">Total</string>
+    <string name="quantity">Quantity</string>
+    <string name="units">Units</string>
+    <string name="remove_members">Remove members</string>
+    <string name="remove_products_from_members">Remove products from members</string>
+    <string name="pay_each_his_part">Pay each his part</string>
+    <string name="The_transfer_of_data_from_OLD_MODEL_to_NEW_MODEL_carries_a_cost">The transfer of data from OLD_MODEL to NEW_MODEL carries a cost</string>
+    <string name="transferring_the_data_from_OLD_MODEL_to_NEW_MODEL">Transferring the data from OLD_MODEL to NEW_MODEL</string>
+    <string name="this_is_the_Economic_Supervision_verification_code">This is the Economic Supervision verification code</string>
+    <string name="Portability_of_data_from_one_device_to_another_comes_at_a_cost">Data recovery comes at a cost</string>
+    <string name="I_agree_to_port_the_data_to_the_current_device">I agree to recover the data I previously had</string>
+    <string name="I_agree_to_receive_an_SMS_in_order_to_authenticate_myself_in_the_application">I agree to receive an SMS in order to authenticate myself in the application</string>
+    <string name="You_must_enter_the_device_identifier_and_phone_number_you_used_when_you_signed_up_for_the_app">You must enter the recovery code and phone number you used when you signed up for the app</string>
+    <string name="It_is_recommended_to_register_with_the_same_phone_number_of_the_SIM_card_that_contains_your_mobile_device">It is recommended to register with the same phone number of the SIM card that contains your mobile device</string>
+    <string name="Porting_the_data_to_your_current_device">Retrieving the data</string>
+</resources>

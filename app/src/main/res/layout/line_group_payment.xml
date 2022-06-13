@@ -1,0 +1,203 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:cardBackgroundColor="#000000"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/txtvPaid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:padding="5dp"
+            android:text="Pagado: Juan (Hace 3 dias), Miguel (hace 28 dias)"
+            android:textColor="@color/colorIncome"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txtvPercentage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnDelete"
+            app:layout_constraintTop_toBottomOf="@+id/txtvToPay"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text=" aihdhaisydhiuashndchasuidhiajshdjasdsdasdasd"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/btnDelete"
+            app:layout_constraintEnd_toStartOf="@+id/txtvValue"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnDelete"
+            app:layout_constraintTop_toTopOf="@+id/btnDelete"
+            app:layout_constraintVertical_bias="0.384" />
+
+        <TextView
+            android:id="@+id/txtvDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Hace 82 dias (10 participantes)3458093487593475973485"
+            android:textAlignment="textStart"
+            android:textColor="#cccccc"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtvMoney"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnDelete"
+            app:layout_constraintTop_toBottomOf="@+id/btnDelete"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvValue"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxWidth="200dp"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="234234234237847238942123123123123123123"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorIncome"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtvName"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxWidth="200dp"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="2342398472398742398472398423234234234234234"
+            android:textAlignment="textEnd"
+            android:textColor="#cccccc"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvDate"
+            app:layout_constraintEnd_toEndOf="@+id/txtvValue"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtvDate"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txtvToPay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:padding="5dp"
+            android:text="Por pagar: Mikel, Juan, Manex, Iñigo, Eduardo, Rodrigo, Cristian, Pepe, Manolo, Pique, Ivan, Jonfer y Juan"
+            android:textColor="@color/colorExpense"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txtvPercentage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnDelete"
+            app:layout_constraintTop_toBottomOf="@+id/txtvDate"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="textEnd"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="200dp"
+            android:fontFamily="@font/minisystem"
+            android:inputType="textNoSuggestions"
+            android:padding="5dp"
+            android:text="2820/12412"
+            android:textColor="#cccccc"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txtvValue"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvPaid"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:progress="100"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvPercentage"
+            app:layout_constraintEnd_toStartOf="@+id/txtvPercentage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnDelete"
+            app:layout_constraintTop_toTopOf="@+id/txtvPercentage"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <View
+            android:id="@+id/divider15"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/colorApp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvPercentage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnDelete" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/divider15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/delete_x" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

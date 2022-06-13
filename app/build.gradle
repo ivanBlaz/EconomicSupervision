@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+    sourceSets {
+        // Adds exported schema LatLng as test app assets.
+        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
+    }
+    defaultConfig {
+        applicationId "com.devivan.economicsupervision"
+        minSdkVersion 28
+        targetSdkVersion 30
+        versionCode 10
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.browser:browser:1.3.0'
+
+    // Material
+    implementation 'com.google.android.material:material:1.4.0'
+
+    // Lottie Library
+    implementation 'com.airbnb.android:lottie:3.5.0'
+
+    //FireBase
+    implementation platform('com.google.firebase:firebase-bom:26.5.0')
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    implementation 'com.google.firebase:firebase-firestore:23.0.4'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-core:19.0.2'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.google.firebase:firebase-analytics:19.0.2'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+
+    // Biometric
+    implementation 'androidx.biometric:biometric:1.1.0'
+
+    // Location
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+    // StickySwitch
+    implementation 'com.github.GwonHyeok:StickySwitch:0.0.15'
+
+    // BoomMenu
+    implementation 'com.nightonke:boommenu:2.1.1'
+
+    // Sliding Up Panel
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+
+    // Country Codes
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.4.2'
+
+    // Country Code Picker
+    implementation 'com.hbb20:ccp:2.4.7'
+
+    // 7z
+    implementation 'org.apache.commons:commons-io:1.3.2'
+    implementation 'org.apache.commons:commons-compress:1.18'
+    implementation 'org.tukaani:xz:1.5'
+
+    // SwipeButton
+    implementation 'com.ebanx:swipe-button:0.4.0'
+
+    // PayPal
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.15.3'
+
+    // SwipeLayout
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+}

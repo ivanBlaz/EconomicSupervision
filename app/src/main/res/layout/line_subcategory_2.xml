@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#000000"
+    app:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <View
+            android:id="@+id/divider18"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorApp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvSubCLoss"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imgvSubCLoss"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/divider12"
+            app:layout_constraintTop_toBottomOf="@+id/imgvSubCProf"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/expenses_up" />
+
+        <ImageView
+            android:id="@+id/imgvSubCProf"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/divider12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/income_down" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvSubCLoss"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="2.312.342,541328123781296381232434"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorExpense"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvSubCLoss"
+            app:layout_constraintEnd_toStartOf="@+id/txtvSubCMoney"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgvSubCLoss"
+            app:layout_constraintTop_toTopOf="@+id/imgvSubCLoss"
+            app:layout_constraintVertical_bias="0.857" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvSubCMoney"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="2.312.342,542342834238947892343454545656"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvSubCLoss"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgvSubCLoss"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvSubCProf"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/minisystem"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="2.312.342,541231729371283712823781231"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorIncome"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgvSubCProf"
+            app:layout_constraintEnd_toStartOf="@+id/txtvSubCName"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgvSubCProf"
+            app:layout_constraintTop_toTopOf="@+id/imgvSubCProf"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/divider12"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/colorApp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtvSubCMoney"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtvSubCName" />
+
+        <com.devivan.economicsupervision.UtilityClasses.AutoResizeTextView
+            android:id="@+id/txtvSubCName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Health and Beauty Generalasdadasdassdasdasdasdas"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/imgvSubCLoss"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgvSubCProf"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
