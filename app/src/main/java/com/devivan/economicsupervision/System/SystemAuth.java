@@ -23,8 +23,6 @@ public class SystemAuth {
 
     public String verificationId;
 
-    private static final String TAG = "AUTHENTICATION_TAG";
-
     private final FirebaseAuth firebaseAuth;
 
     // Constructor variables

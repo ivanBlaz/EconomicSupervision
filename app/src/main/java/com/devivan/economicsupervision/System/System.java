@@ -6469,7 +6469,13 @@ public class System implements Parcelable {
         File databasesDir = new File(activity.getDataDir() + "/databases");
         try {
             if (filesDir.exists()) FileUtils.deleteDirectory(filesDir);
-            if (databasesDir.exists()) FileUtils.deleteDirectory(databasesDir);
+            if (databasesDir.exists()) {
+                File[] listFiles = databasesDir.listFiles();
+                if (null != listFiles)
+                    for (File file : listFiles)
+                        if (file.getName().startsWith("db"))
+                            deleteFile(file);
+            }
         } catch (IOException ignored) {
         }
     }
