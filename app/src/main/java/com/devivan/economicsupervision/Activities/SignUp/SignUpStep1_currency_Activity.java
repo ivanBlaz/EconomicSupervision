@@ -21,13 +21,9 @@ public class SignUpStep1_currency_Activity extends AppCompatActivity {
 
     public ConstraintLayout clActivitySignUpStep1Currency;
 
-    public LottieAnimationView btnLogIn;
-    public TextView txtvLogIn;
-    public ImageView btnLogInO;
-
     public TextView txtvCurrency;
 
-    public LottieAnimationView lottieNext;
+    public LottieAnimationView lottieBack, lottieNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

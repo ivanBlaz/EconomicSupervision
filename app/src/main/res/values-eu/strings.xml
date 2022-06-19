@@ -177,6 +177,9 @@
     <string name="Processing_data">Datuak prozesatzen...</string>
     <string name="Log_out">Saioa itxi</string>
     <string name="To_log_in_enter_the_phone_number_with_which_you_registered">Saioa hasteko, sartu erregistratu zenuen telefono-zenbakia</string>
+    <string name="Authentication">Autentifikazioa</string>
+    <string name="LogIn.info">Gurekin kontua baduzu, hasi saioa aurrerapen guztia berreskuratzeko</string>
+    <string name="SignUp.info">Oraindik gurekin konturik ez baduzu, erregistratu eta hasi zure dirua kudeatzen</string>
     <string-array name="transactions_voice_assistant_statements">
         <item>Bakarka / Taldeak</item>
         <item>Positiboa / Ezezkoa</item>

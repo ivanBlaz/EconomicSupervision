@@ -70,6 +70,7 @@ import com.airbnb.lottie.LottieAnimationView;
 import com.devivan.economicsupervision.Activities.LicensesActivity;
 import com.devivan.economicsupervision.Activities.LogIn.LogInStep0_phoneNumber_Activity;
 import com.devivan.economicsupervision.Activities.LogIn.LogInStep1_sms_Activity;
+import com.devivan.economicsupervision.Activities.LogInOrSignUpActivity;
 import com.devivan.economicsupervision.Activities.MovementsActivity;
 import com.devivan.economicsupervision.Adapters.FriendsAdapter.FriendsAdapter;
 import com.devivan.economicsupervision.Adapters.FriendsOfGroupAdapter.FriendsOfGroupAdapter;
@@ -894,17 +895,112 @@ public class System implements Parcelable {
                 }
             }
         }
+        ///////////////////////////
+        // LogInOrSignUpActivity //
+        ///////////////////////////
+        else if (activity instanceof LogInOrSignUpActivity) {
+            LogInOrSignUpActivity a = (LogInOrSignUpActivity) activity;
+            a.lottieAuthentication = a.findViewById(R.id.lottieAuthentication);
+            a.txtvAuthentication = a.findViewById(R.id.txtvAuthentication);
+            a.txtvLogIn = a.findViewById(R.id.txtvLogIn);
+            a.btnLogInO = a.findViewById(R.id.btnLogInO);
+            a.lottieLogIn = a.findViewById(R.id.lottieLogIn);
+            a.dividerLogIn = a.findViewById(R.id.dividerLogIn);
+            a.txtvInfoLogIn = a.findViewById(R.id.txtvInfoLogIn);
+            a.dividerSeparator = a.findViewById(R.id.dividerSeparator);
+            a.txtvSignUp = a.findViewById(R.id.txtvSignUp);
+            a.btnSignUpO = a.findViewById(R.id.btnSignUpO);
+            a.lottieSignUp = a.findViewById(R.id.lottieSignUp);
+            a.dividerSignUp = a.findViewById(R.id.dividerSignUp);
+            a.dividerSignUp1 = a.findViewById(R.id.dividerSignUp1);
+            a.txtvInfoSignUp = a.findViewById(R.id.txtvInfoSignUp);
+
+            ////////////////
+            // Animations //
+            ////////////////
+            // From top to bottom
+            Animation topToBottom = AnimationUtils.loadAnimation(a, R.anim.slide_in_top);
+            a.lottieAuthentication.startAnimation(topToBottom);
+            a.txtvAuthentication.startAnimation(topToBottom);
+
+            // From left to right
+            Animation leftToRight = AnimationUtils.loadAnimation(a, R.anim.slide_in_right);
+            a.txtvLogIn.startAnimation(leftToRight);
+            a.btnLogInO.startAnimation(leftToRight);
+            a.lottieLogIn.startAnimation(leftToRight);
+            a.dividerLogIn.startAnimation(leftToRight);
+            a.txtvInfoLogIn.startAnimation(leftToRight);
+
+            // Zoom in
+            Animation zoomIn = AnimationUtils.loadAnimation(a, R.anim.zoom_in);
+            a.dividerSeparator.startAnimation(zoomIn);
+
+            // From right to left
+            Animation slideInLeft = AnimationUtils.loadAnimation(a, R.anim.slide_in_left);
+            a.txtvSignUp.startAnimation(slideInLeft);
+            a.btnSignUpO.startAnimation(slideInLeft);
+            a.lottieSignUp.startAnimation(slideInLeft);
+            a.dividerSignUp.startAnimation(slideInLeft);
+            a.dividerSignUp1.startAnimation(slideInLeft);
+            a.txtvInfoSignUp.startAnimation(slideInLeft);
+
+            //////////////////
+            // Click events //
+            //////////////////
+            // Log In //
+            Intent iLogIn = new Intent(a, LogInStep0_phoneNumber_Activity.class);
+            iLogIn.putExtra("system", System.this);
+
+            // txtvLogIn
+            a.txtvLogIn.setOnClickListener(v -> {
+                a.startActivity(iLogIn);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+            // btnLogInO
+            a.btnLogInO.setOnClickListener(v -> {
+                a.startActivity(iLogIn);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+            // lottieLogIn
+            a.lottieLogIn.setOnClickListener(v -> {
+                a.startActivity(iLogIn);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+            // Sign Up //
+            Intent iSignUp = new Intent(a, SignUpStep0_name_Activity.class);
+            iSignUp.putExtra("system", System.this);
+
+            // txtvSignUp
+            a.txtvSignUp.setOnClickListener(v -> {
+                a.startActivity(iSignUp);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+            // btnSignUpO
+            a.btnSignUpO.setOnClickListener(v -> {
+                a.startActivity(iSignUp);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+            // lottieSignUp
+            a.lottieSignUp.setOnClickListener(v -> {
+                a.startActivity(iSignUp);
+                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            });
+
+        }
         ///////////////////////////////
         // SignUpStep0_name_Activity //
         ///////////////////////////////
-        else if (activity.getClass() == SignUpStep0_name_Activity.class) {
+        else if (activity instanceof SignUpStep0_name_Activity) {
             SignUpStep0_name_Activity a = (SignUpStep0_name_Activity) activity;
             a.clActivitySignUpStep0Name = a.findViewById(R.id.clActivitySignUpStep0Name);
             a.txtvName = a.findViewById(R.id.txtvName);
             a.txtvName.setText(name);
-            a.btnLogIn = a.findViewById(R.id.btnLogIn);
-            a.txtvLogIn = a.findViewById(R.id.txtvLogIn);
-            a.btnLogInO = a.findViewById(R.id.btnLogInO);
+            a.lottieBack = a.findViewById(R.id.lottieBack);
             a.lottieNext = a.findViewById(R.id.lottieNext);
 
             // On touch listener
@@ -918,36 +1014,16 @@ public class System implements Parcelable {
                         x2 = event.getX();
                         y2 = event.getY();
                         float deltaX = x2 - x1;
-                        if (Math.abs(deltaX) > MIN_DISTANCE && x2 < x1) {
-                            a.lottieNext.performClick();
+                        if (Math.abs(deltaX) > MIN_DISTANCE) {
+                            if (x2 > x1) {
+                                a.onBackPressed();
+                            } else {
+                                a.lottieNext.performClick();
+                            }
                         }
                         break;
                 }
                 return false;
-            });
-
-            // btnLogIn
-            a.btnLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // txtvLogIn
-            a.txtvLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // btnLoginO
-            a.btnLogInO.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             });
 
             // txtvName
@@ -959,6 +1035,9 @@ public class System implements Parcelable {
                         a.onDismiss();
                         return null;
                     }));
+
+            // lottieBack
+            a.lottieBack.setOnClickListener(v -> a.onBackPressed());
 
             // lottieNext
             a.lottieNext.setOnClickListener(v -> {
@@ -979,11 +1058,9 @@ public class System implements Parcelable {
         else if (activity instanceof SignUpStep1_currency_Activity) {
             SignUpStep1_currency_Activity a = (SignUpStep1_currency_Activity) activity;
             a.clActivitySignUpStep1Currency = a.findViewById(R.id.clActivitySignUpStep1Currency);
-            a.btnLogIn = a.findViewById(R.id.btnLogIn);
-            a.txtvLogIn = a.findViewById(R.id.txtvLogIn);
-            a.btnLogInO = a.findViewById(R.id.btnLogInO);
             a.txtvCurrency = a.findViewById(R.id.txtvCurrency);
             a.txtvCurrency.setText(currency);
+            a.lottieBack = a.findViewById(R.id.lottieBack);
             a.lottieNext = a.findViewById(R.id.lottieNext);
 
             // On touch listener
@@ -1009,30 +1086,6 @@ public class System implements Parcelable {
                 return true;
             });
 
-            // btnLogIn
-            a.btnLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // txtvLogIn
-            a.txtvLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // btnLoginO
-            a.btnLogInO.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
             // txtvCurrency
             a.txtvCurrency.setOnClickListener(v -> customKeyBoard(1, keyboardView.findViewById(R.id.textView), false, false, 3,
                     a.txtvCurrency,
@@ -1042,6 +1095,9 @@ public class System implements Parcelable {
                         a.onDismiss();
                         return null;
                     }));
+
+            // lottieBack
+            a.lottieBack.setOnClickListener(v -> a.onBackPressed());
 
             // lottieNext
             a.lottieNext.setOnClickListener(v -> {
@@ -1062,13 +1118,11 @@ public class System implements Parcelable {
         else if (activity instanceof SignUpStep2_money_Activity) {
             SignUpStep2_money_Activity a = (SignUpStep2_money_Activity) activity;
             a.clActivitySignUpStep2Money = a.findViewById(R.id.clActivitySignUpStep2Money);
-            a.btnLogIn = a.findViewById(R.id.btnLogIn);
-            a.txtvLogIn = a.findViewById(R.id.txtvLogIn);
-            a.btnLogInO = a.findViewById(R.id.btnLogInO);
             a.txtvNumsBef = a.findViewById(R.id.txtvNumsBef);
             a.txtvNumsBef.setText(numsBef);
             a.txtvNumsAft = a.findViewById(R.id.txtvNumsAft);
             a.txtvNumsAft.setText(numsAft);
+            a.lottieBack = a.findViewById(R.id.lottieBack);
             a.lottieNext = a.findViewById(R.id.lottieNext);
 
             // On touch listener
@@ -1094,30 +1148,6 @@ public class System implements Parcelable {
                 return true;
             });
 
-            // btnLogIn
-            a.btnLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // txtvLogIn
-            a.txtvLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // btnLoginO
-            a.btnLogInO.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
             // txtvNumsBef
             a.txtvNumsBef.setOnClickListener(v -> customKeyBoard(0, keyboardView.findViewById(R.id.textView), true, false, 7,
                     a.txtvNumsBef,
@@ -1138,6 +1168,9 @@ public class System implements Parcelable {
                         return null;
                     }));
 
+            // lottieBack
+            a.lottieBack.setOnClickListener(v -> a.onBackPressed());
+
             // lottieNext
             a.lottieNext.setOnClickListener(v -> {
                 a.onDismiss();
@@ -1153,9 +1186,6 @@ public class System implements Parcelable {
         else if (activity instanceof SignUpStep3_phoneNumber_Activity) {
             SignUpStep3_phoneNumber_Activity a = (SignUpStep3_phoneNumber_Activity) activity;
             a.clActivitySignUpStep3PhoneNumber = a.findViewById(R.id.clActivitySignUpStep3PhoneNumber);
-            a.btnLogIn = a.findViewById(R.id.btnLogIn);
-            a.txtvLogIn = a.findViewById(R.id.txtvLogIn);
-            a.btnLogInO = a.findViewById(R.id.btnLogInO);
             a.txtvPhoneNumber = a.findViewById(R.id.txtvPhoneNumber);
             a.txtvPhoneNumber.setText(phoneNumber);
             a.countryCodePicker = a.findViewById(R.id.countryCodePicker);
@@ -1163,6 +1193,7 @@ public class System implements Parcelable {
             a.cbAutoSendSMS = a.findViewById(R.id.cbAutoSendSMS);
             a.btnLicenseTerms = a.findViewById(R.id.btnLicenseTerms);
             a.btnPrivacyPolicy = a.findViewById(R.id.btnPrivacyPolicy);
+            a.lottieBack = a.findViewById(R.id.lottieBack);
             a.lottieNext = a.findViewById(R.id.lottieNext);
 
             // On touch listener
@@ -1188,30 +1219,6 @@ public class System implements Parcelable {
                 return true;
             });
 
-            // btnLogIn
-            a.btnLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // txtvLogIn
-            a.txtvLogIn.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
-            // btnLoginO
-            a.btnLogInO.setOnClickListener(v -> {
-                Intent i = new Intent(a, LogInStep0_phoneNumber_Activity.class);
-                i.putExtra("system", System.this);
-                a.startActivity(i);
-                a.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-            });
-
             // countryCodePicker
             a.countryCodePicker.setOnCountryChangeListener(a::onDismiss);
 
@@ -1231,6 +1238,9 @@ public class System implements Parcelable {
             // btnPrivacyPolicy
             a.btnPrivacyPolicy.setOnClickListener(v -> showPrivacyPolicy());
 
+            // lottieBack
+            a.lottieBack.setOnClickListener(v -> a.onBackPressed());
+
             // lottieNext
             a.lottieNext.setOnClickListener(v -> {
                 a.onDismiss();
@@ -1241,7 +1251,7 @@ public class System implements Parcelable {
                             FirebaseDatabase.getInstance().getReference("users/" + countryISO + "_" + phoneNumber).addListenerForSingleValueEvent(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                    if (isDataReady(snapshot)) {
+                                    if (isDataReady(snapshot) || TEST_CREDENTIALS_PHONE_NUMBER.equals(phoneNumber)) {
                                         toast(activity, WARNING_TOAST, activity.getString(R.string.This_phone_number_is_already_registered), Toast.LENGTH_SHORT);
                                     } else {
                                         Intent i = new Intent(a, SignUpStep4_sms_Activity.class);
@@ -1474,9 +1484,6 @@ public class System implements Parcelable {
         else if (activity instanceof LogInStep0_phoneNumber_Activity) {
             LogInStep0_phoneNumber_Activity a = (LogInStep0_phoneNumber_Activity) activity;
             a.clActivityLogInStep0PhoneNumber = a.findViewById(R.id.clActivityLogInStep0PhoneNumber);
-            a.btnSignUp = a.findViewById(R.id.btnSignUp);
-            a.txtvSignUp = a.findViewById(R.id.txtvSignUp);
-            a.btnSignUpO = a.findViewById(R.id.btnSignUpO);
             a.txtvPhoneNumber = a.findViewById(R.id.txtvPhoneNumber);
             a.txtvPhoneNumber.setText(phoneNumber);
             a.countryCodePicker = a.findViewById(R.id.countryCodePicker);
@@ -1484,6 +1491,7 @@ public class System implements Parcelable {
             a.cbAutoSendSMS = a.findViewById(R.id.cbAutoSendSMS);
             a.btnLicenseTerms = a.findViewById(R.id.btnLicenseTerms);
             a.btnPrivacyPolicy = a.findViewById(R.id.btnPrivacyPolicy);
+            a.lottieBack = a.findViewById(R.id.lottieBack);
             a.lottieNext = a.findViewById(R.id.lottieNext);
 
             // On touch listener
@@ -1509,15 +1517,6 @@ public class System implements Parcelable {
                 return true;
             });
 
-            // btnSignUp
-            a.btnSignUp.setOnClickListener(v -> a.onBackPressed());
-
-            // txtvSignUp
-            a.txtvSignUp.setOnClickListener(v -> a.onBackPressed());
-
-            // btnSignUpO
-            a.btnSignUpO.setOnClickListener(v -> a.onBackPressed());
-
             // countryCodePicker
             a.countryCodePicker.setOnCountryChangeListener(a::onDismiss);
 
@@ -1536,6 +1535,9 @@ public class System implements Parcelable {
 
             // btnPrivacyPolicy
             a.btnPrivacyPolicy.setOnClickListener(v -> showPrivacyPolicy());
+
+            // lottieBack
+            a.lottieBack.setOnClickListener(v -> a.onBackPressed());
 
             // lottieNext
             a.lottieNext.setOnClickListener(v -> {
@@ -1587,9 +1589,6 @@ public class System implements Parcelable {
         else if (activity instanceof LogInStep1_sms_Activity) {
             LogInStep1_sms_Activity a = (LogInStep1_sms_Activity) activity;
             a.clActivityLogInStep1Sms = a.findViewById(R.id.clActivityLogInStep1Sms);
-            a.btnSignUp = a.findViewById(R.id.btnSignUp);
-            a.txtvSignUp = a.findViewById(R.id.txtvSignUp);
-            a.btnSignUpO = a.findViewById(R.id.btnSignUpO);
             a.txtvWaitingToSMS = a.findViewById(R.id.txtvWaitingToSMS);
             a.txtvVerificationCode = a.findViewById(R.id.txtvVerificationCode);
             a.txtvResendVerificationCode = a.findViewById(R.id.txtvResendVerificationCode);
@@ -8136,9 +8135,9 @@ public class System implements Parcelable {
         handler.postDelayed(r, 1000);
     }
 
-    public void startSignUp() { // Name
-        // Start SignUpStep0_name_Activity
-        Intent i = new Intent(activity, SignUpStep0_name_Activity.class);
+    public void startAuthentication() { // LogIn or SignUp
+        // Start LogInOrSignUpActivity
+        Intent i = new Intent(activity, LogInOrSignUpActivity.class);
         i.putExtra("system", this);
         activity.startActivity(i);
         activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);

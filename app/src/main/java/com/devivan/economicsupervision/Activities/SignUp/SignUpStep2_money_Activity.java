@@ -20,13 +20,9 @@ public class SignUpStep2_money_Activity extends AppCompatActivity {
 
     public ConstraintLayout clActivitySignUpStep2Money;
 
-    public LottieAnimationView btnLogIn;
-    public TextView txtvLogIn;
-    public ImageView btnLogInO;
-
     public TextView txtvNumsBef, txtvNumsAft;
 
-    public LottieAnimationView lottieNext;
+    public LottieAnimationView lottieBack, lottieNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

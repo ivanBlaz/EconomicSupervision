@@ -10,46 +10,21 @@
     tools:context=".Activities.SignUp.SignUpStep2_money_Activity">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/btnLogIn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtvLogIn"
-        app:layout_constraintEnd_toStartOf="@+id/txtvLogIn"
-        app:layout_constraintHorizontal_bias="1"
+        android:id="@+id/lottieBack"
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtvLogIn"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="log_in.json"
+        app:lottie_fileName="next.json"
         app:lottie_loop="true" />
-
-    <TextView
-        android:id="@+id/txtvLogIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="L   g in"
-        android:textColor="@color/colorApp"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/lottieNext"
-        app:layout_constraintEnd_toStartOf="@+id/lottieNext"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/lottieNext"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <ImageView
-        android:id="@+id/btnLogInO"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtvLogIn"
-        app:layout_constraintEnd_toEndOf="@+id/txtvLogIn"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="@+id/txtvLogIn"
-        app:layout_constraintTop_toTopOf="@+id/txtvLogIn"
-        app:layout_constraintVertical_bias="0.70"
-        app:srcCompat="@drawable/point" />
 
     <TextView
         android:id="@+id/textView21"

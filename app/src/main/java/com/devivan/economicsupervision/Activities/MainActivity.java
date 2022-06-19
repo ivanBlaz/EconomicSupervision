@@ -110,8 +110,8 @@ public class MainActivity extends AppCompatActivity {
                     // Dismiss dialog
                     system.dismissDialog(system.infoDialog);
 
-                    // Start to register
-                    system.startSignUp();
+                    // Start authentication
+                    system.startAuthentication();
                     break;
                 case 1: // [ READ_CONTACTS | RECORD_AUDIO ] | TRANSACTIONS
                     if (grantResults[0] == PackageManager.PERMISSION_DENIED ||

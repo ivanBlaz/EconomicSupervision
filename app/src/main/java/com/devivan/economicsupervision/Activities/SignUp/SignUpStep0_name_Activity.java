@@ -34,11 +34,7 @@ public class SignUpStep0_name_Activity extends AppCompatActivity {
 
     public TextView txtvName;
 
-    public LottieAnimationView btnLogIn;
-    public TextView txtvLogIn;
-    public ImageView btnLogInO;
-
-    public LottieAnimationView lottieNext;
+    public LottieAnimationView lottieBack, lottieNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +50,6 @@ public class SignUpStep0_name_Activity extends AppCompatActivity {
 
         // Prepare activity?
         if (system != null) system.prepareActivity(__this__);
-
     }
 
     @Override
@@ -65,7 +60,10 @@ public class SignUpStep0_name_Activity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        //super.onBackPressed();
+        if (lottieNext.isEnabled()) {
+            super.onBackPressed();
+            this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        }
     }
 
     @Override

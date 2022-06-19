@@ -24,10 +24,6 @@ public class SignUpStep3_phoneNumber_Activity extends AppCompatActivity {
 
     public ConstraintLayout clActivitySignUpStep3PhoneNumber;
 
-    public LottieAnimationView btnLogIn;
-    public TextView txtvLogIn;
-    public ImageView btnLogInO;
-
     public TextView txtvPhoneNumber;
 
     public CountryCodePicker countryCodePicker;
@@ -36,7 +32,7 @@ public class SignUpStep3_phoneNumber_Activity extends AppCompatActivity {
 
     public TextView btnLicenseTerms, btnPrivacyPolicy;
 
-    public LottieAnimationView lottieNext;
+    public LottieAnimationView lottieBack, lottieNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -177,6 +177,9 @@
     <string name="Processing_data">Procesando datos...</string>
     <string name="Log_out">Cerrar sesión</string>
     <string name="To_log_in_enter_the_phone_number_with_which_you_registered">Para iniciar sesión introduce el número de teléfono con el que te registraste</string>
+    <string name="Authentication">Autentificación</string>
+    <string name="LogIn.info">Si ya tienes cuenta con nosotros, inicia sesión para recuperar todo el progreso</string>
+    <string name="SignUp.info">Si aún no tienes una cuenta con nosotros, registrate ya y empieza a gestionar tu dinero</string>
     <string-array name="transactions_voice_assistant_statements">
         <item>Individuales / Grupales</item>
         <item>Positivas / Negativas</item>

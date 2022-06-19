@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_or_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step0_phone_number.xml" value="0.2" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step1_sms.xml" value="0.4276041666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step0_name.xml" value="0.2674772036474164" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step1_currency.xml" value="0.22" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step2_money.xml" value="0.22" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step3_phone_number.xml" value="0.4276041666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step4_sms.xml" value="0.4276041666666667" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_friend.xml" value="0.31354166666666666" />
       </map>
     </option>

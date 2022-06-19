@@ -177,6 +177,9 @@
     <string name="Processing_data">Processing data...</string>
     <string name="Log_out">Log out</string>
     <string name="To_log_in_enter_the_phone_number_with_which_you_registered">To log in, enter the phone number with which you registered</string>
+    <string name="Authentication">Authentication</string>
+    <string name="LogIn.info">If you already have an account with us, log in to retrieve all progress</string>
+    <string name="SignUp.info">If you don\'t have an account with us yet, register now and start managing your money</string>
     <string-array name="transactions_voice_assistant_statements">
         <item>Individual / Group</item>
         <item>Positive / Negative</item>

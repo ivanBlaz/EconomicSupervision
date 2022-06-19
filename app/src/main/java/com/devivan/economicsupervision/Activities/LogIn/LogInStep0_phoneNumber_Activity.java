@@ -25,10 +25,6 @@ public class LogInStep0_phoneNumber_Activity extends AppCompatActivity {
 
     public ConstraintLayout clActivityLogInStep0PhoneNumber;
 
-    public LottieAnimationView btnSignUp;
-    public TextView txtvSignUp;
-    public ImageView btnSignUpO;
-
     public TextView txtvPhoneNumber;
 
     public CountryCodePicker countryCodePicker;
@@ -37,7 +33,7 @@ public class LogInStep0_phoneNumber_Activity extends AppCompatActivity {
 
     public TextView btnLicenseTerms, btnPrivacyPolicy;
 
-    public LottieAnimationView lottieNext;
+    public LottieAnimationView lottieBack, lottieNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +49,6 @@ public class LogInStep0_phoneNumber_Activity extends AppCompatActivity {
 
         // Prepare activity?
         if (system != null) system.prepareActivity(__this__);
-
     }
 
     @Override

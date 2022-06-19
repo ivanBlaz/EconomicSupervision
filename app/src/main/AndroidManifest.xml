@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.devivan.economicsupervision">
-
+    <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -18,7 +18,22 @@
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode"
         tools:replace="allowBackup">
-        <activity android:name=".Activities.LogIn.LogInStep1_sms_Activity"></activity>
+        <!-- Main -->
+        <activity
+            android:name=".Activities.MainActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- LogIn or SignUp -->
+        <activity
+            android:name=".Activities.LogInOrSignUpActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="behind" />
         <!-- Sign Up -->
         <activity
             android:name=".Activities.SignUp.SignUpStep0_name_Activity"
@@ -45,32 +60,25 @@
             android:resizeableActivity="false"
             android:screenOrientation="behind" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".Activities.LogIn.LogInStep1_sms_Activity"
             android:resizeableActivity="false"
-            android:screenOrientation="behind">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity> <!-- Transactions -->
+            android:screenOrientation="behind" /> <!-- Transactions -->
         <activity
             android:name=".Activities.TransactionsActivity"
             android:resizeableActivity="false"
-            android:screenOrientation="behind" />
+            android:screenOrientation="behind" /> <!-- Concepts & Categories -->
         <activity
             android:name=".Activities.ConCatActivity"
             android:resizeableActivity="false"
-            android:screenOrientation="behind" />
+            android:screenOrientation="behind" /> <!-- Licenses -->
         <activity
             android:name=".Activities.LicensesActivity"
             android:resizeableActivity="false"
-            android:screenOrientation="behind" />
+            android:screenOrientation="behind" /> <!-- Movements -->
         <activity
             android:name=".Activities.MovementsActivity"
             android:resizeableActivity="false"
-            android:screenOrientation="behind" />
-
+            android:screenOrientation="behind" /> <!-- Location -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
