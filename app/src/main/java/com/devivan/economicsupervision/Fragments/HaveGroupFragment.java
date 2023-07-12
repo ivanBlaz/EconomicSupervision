@@ -434,7 +434,8 @@ public class HaveGroupFragment extends Fragment {
                         value = VoiceAssistant.getGroupValue(s);
                         if (value > 0) {
                             count = VoiceAssistant.getNumberOfParticipants(s);
-                            if (count >= System.LIMIT_MIN_GP_PARTICIPANTS && count <= System.LIMIT_MAX_GP_PARTICIPANTS) {
+                            if (count >= System.LIMIT_MIN_GP_PARTICIPANTS + 1 && count <= System.LIMIT_MAX_GP_PARTICIPANTS) {
+                                count -= 1;
                                 double val = value / count;
                                 if (val < System.MIN_VALUE) {
                                     initData();

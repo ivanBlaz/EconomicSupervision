@@ -15,11 +15,35 @@
       },
       "oauth_client": [
         {
-          "client_id": "291398754446-6e2n2mc79tbde1q6si1bhgcsus4vcjbe.apps.googleusercontent.com",
+          "client_id": "291398754446-6n7afnr9ugiq49jj46arge99kackadpr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.devivan.economicsupervision",
-            "certificate_hash": "7fe1a24032ac7bd57bb89dc34ec214560d0eecf4"
+            "certificate_hash": "c850ab9207e8f4761c88777861b67364947aa0e6"
+          }
+        },
+        {
+          "client_id": "291398754446-77258vl42c02se26fmbrmormt8eue5ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devivan.economicsupervision",
+            "certificate_hash": "22954edcef3f61962aecc57848f5ee61edd61841"
+          }
+        },
+        {
+          "client_id": "291398754446-941j18d7vn14dqoavvu7r79i3mgdib0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devivan.economicsupervision",
+            "certificate_hash": "885f89986116b808792148773dd44df17eca9249"
+          }
+        },
+        {
+          "client_id": "291398754446-nsbqe42b5rsjg9ug2b33j59cebhespfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devivan.economicsupervision",
+            "certificate_hash": "42db12e9a1d8ad4e190943838d189b56a2a54c01"
           }
         },
         {

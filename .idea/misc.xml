@@ -3,15 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/box_selected_with_round.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/box_with_round.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/box_with_round_black.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/box_with_round_not_selected.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/box_with_round_selected.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/keyboard_key.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/drawable/round_blue.xml" value="0.5475" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_con_cat.xml" value="0.4" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_licenses.xml" value="0.4" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_or_sign_up.xml" value="0.33" />
-        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step0_phone_number.xml" value="0.2" />
-        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step1_sms.xml" value="0.4276041666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step0_phone_number.xml" value="0.33" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_log_in_step1_sms.xml" value="0.25" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_movements.xml" value="0.4" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_shop.xml" value="0.4" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step0_name.xml" value="0.2674772036474164" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step1_currency.xml" value="0.22" />
-        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step2_money.xml" value="0.22" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step2_money.xml" value="0.33" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step3_phone_number.xml" value="0.4276041666666667" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_sign_up_step4_sms.xml" value="0.4276041666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/activity_transactions.xml" value="0.4" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/dialog_keyboard_concepts.xml" value="0.33" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/dialog_keyboard_contacts.xml" value="0.5656410256410257" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/dialog_lottie.xml" value="0.5656410256410257" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/dialog_microphone.xml" value="0.5656410256410257" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/fragment_add_payment.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/fragment_have.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/fragment_have_group.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/fragment_have_individual.xml" value="0.4" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/fragment_software.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_category.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_concept.xml" value="0.39166666666666666" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_day.xml" value="0.1" />
         <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_friend.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/ivanb/AndroidStudioProjects/EconomicSupervision/app/src/main/res/layout/line_group_payment.xml" value="0.5541666666666667" />
       </map>
     </option>
   </component>

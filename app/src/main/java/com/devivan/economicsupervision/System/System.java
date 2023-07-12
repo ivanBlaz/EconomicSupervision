@@ -2380,8 +2380,12 @@ public class System implements Parcelable {
                         pointEnabled = true;
                     }
                 } else {
-                    // Maximize or minimize screen
-                    changeScreenSize();
+                    // [DEPRECATED] Maximize or minimize screen
+                    //changeScreenSize();
+
+                    // Toast
+                    toast(activity, WARNING_TOAST, activity.getString(R.string.You_must_enter_a_valid_amount), Toast.LENGTH_SHORT);
+                    pointEnabled = true;
                 }
             }
         };
@@ -7455,6 +7459,7 @@ public class System implements Parcelable {
         }
     }
 
+    @Deprecated
     private void changeScreenSize() {
         fullScreen = !fullScreen;
         rewriteConfig();

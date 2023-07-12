@@ -101,10 +101,12 @@ public class MovementsActivity extends AppCompatActivity {
                 back = true;
                 System.going = true;
                 super.onBackPressed();
+                stopSpeech();
                 overridePendingTransition(R.anim.slide_in_top, R.anim.slide_out_top);
             } else {
                 system.tryToConnectToTheInternet(() -> {
                     onBackPressed();
+                    stopSpeech();
                     return null;
                 });
             }
